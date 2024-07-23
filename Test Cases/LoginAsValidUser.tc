@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login as a valid user and verify the login is successful</description>
+   <name>LoginAsValidUser</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1be8e327-ec38-4bb8-a396-11fcec4c7932</testCaseGuid>
+</TestCaseEntity>
