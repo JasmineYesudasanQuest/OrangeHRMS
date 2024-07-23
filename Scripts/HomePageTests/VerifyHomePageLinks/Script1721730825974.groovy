@@ -21,9 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/Page_OrangeHRM/UserNameField'), 'Admin')
+WebUI.waitForPageLoad(0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/Page_OrangeHRM/PasswordField'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setText(findTestObject('LoginPage/UserNameField'), 'Admin')
 
-WebUI.click(findTestObject('Object Repository/LoginPage/Page_OrangeHRM/LoginButton'))
+WebUI.setEncryptedText(findTestObject('LoginPage/PasswordField'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('LoginPage/LoginButton'))
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/Page_OrangeHRM/UserProfilePicture'), 0)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/Page_OrangeHRM/AdminLink'), 0)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/Page_OrangeHRM/AdminLink'), 0)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/Page_OrangeHRM/BuzzLink'), 0)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/Page_OrangeHRM/ClaimLink'), 0)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/Page_OrangeHRM/DashboardLink'), 0)
+
+WebUI.verifyElementPresent(findTestObject('HomePage/Page_OrangeHRM/LeaveLink'), 0)
 

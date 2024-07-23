@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the links available in home page</description>
+   <name>VerifyHomePageLinks</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1af94823-5b6e-4b37-954d-d45954e32a4f</testCaseGuid>
+</TestCaseEntity>

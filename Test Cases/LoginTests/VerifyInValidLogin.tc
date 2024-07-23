@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify login with incorrect username and password</description>
+   <name>VerifyInValidLogin</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9a9f2c9-0d3b-47b7-b5d6-2a1e5edf5267</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify searching for an employee</description>
+   <name>VerifyEmployeeSearch</name>
+   <tag>Admin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ee03e0fc-69d5-4c05-a639-07485ea14344</testCaseGuid>
+</TestCaseEntity>
