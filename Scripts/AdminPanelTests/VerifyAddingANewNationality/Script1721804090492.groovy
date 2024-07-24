@@ -17,32 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-
-WebUI.setText(findTestObject('LoginPage/UserNameField'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('LoginPage/PasswordField'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('LoginPage/LoginButton'))
-
-WebUI.click(findTestObject('Object Repository/AdminPage/AddUser/span_Admin'))
-
-WebUI.click(findTestObject('Object Repository/AdminPage/AddUser/AddUserButton'))
-
-WebUI.click(findTestObject('Object Repository/AdminPage/AddUser/UserTypeDropDownInAddPage'))
-
-WebUI.setText(findTestObject('Object Repository/AdminPage/AddUser/UserHintTextBox'), 'a')
-
-WebUI.click(findTestObject('Object Repository/AdminPage/AddUser/UserHintOption'))
-
-WebUI.setText(findTestObject('Object Repository/AdminPage/AddUser/input_Username_oxd-input oxd-input--focus'), 'Jas12345')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/AdminPage/AddUser/input_Password_oxd-input oxd-input--active'), 
-    'PJhMHmON9HDHgTfDu48tsA==')
-
-WebUI.click(findTestObject('Object Repository/AdminPage/AddUser/button_Save'))
-
-WebUI.closeBrowser()
-
+/*Write a catalon studio test case for the following case
+ * 1.Open browser to the url : https://opensource-demo.orangehrmlive.com/
+ * 2.Enter username as Admin
+ * 3.Enter password as admin123
+ * 4.Click on login button
+ * */

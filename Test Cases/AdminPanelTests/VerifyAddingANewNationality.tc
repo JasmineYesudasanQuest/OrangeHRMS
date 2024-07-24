@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add a new natalionality and verify</description>
+   <name>VerifyAddingANewNationality</name>
+   <tag>Admin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7eae741-2cf1-4899-ae77-ce354031e046</testCaseGuid>
+</TestCaseEntity>
