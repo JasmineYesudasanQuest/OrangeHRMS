@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify adding a new user</description>
+   <name>VerifyAddingANewUser</name>
+   <tag>Admin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e489d35a-edf9-4289-9c26-dc5aca7b3836</testCaseGuid>
+</TestCaseEntity>

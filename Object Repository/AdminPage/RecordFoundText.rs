@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_(1) Record Found</name>
+   <name>RecordFoundText</name>
    <tag></tag>
    <elementGuidId>2107dee5-a862-42b5-bfb3-5f2b1e030956</elementGuidId>
    <selectorCollection>

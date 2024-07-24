@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_-- Select --</name>
+   <name>EmployeeTypeDropDown</name>
    <tag></tag>
    <elementGuidId>92697209-8194-4de5-9360-822281b8788c</elementGuidId>
    <selectorCollection>
