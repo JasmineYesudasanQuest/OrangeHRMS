@@ -21,29 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/AdminPage/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('LoginPage/UserNameField'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/AdminPage/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('LoginPage/PasswordField'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/AdminPage/button_Login'))
+WebUI.click(findTestObject('LoginPage/LoginButton'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/span_Admin'))
+WebUI.click(findTestObject('HomePage/Page_OrangeHRM/AdminLink'))
 
-WebUI.setText(findTestObject('Object Repository/AdminPage/input_Username_oxd-input oxd-input--focus'), 'admin')
+WebUI.setText(findTestObject('Object Repository/AdminPage/UserNameFieldForSearch'), 'admin')
 
-WebUI.doubleClick(findTestObject('Object Repository/AdminPage/div_-- Select --'))
+WebUI.click(findTestObject('Object Repository/AdminPage/SearchButton'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/div_-- Select --'))
+WebUI.verifyElementText(findTestObject('AdminPage/RecordFoundText'), '(1) Record Found')
 
-WebUI.click(findTestObject('Object Repository/AdminPage/button_Search'))
+WebUI.verifyElementText(findTestObject('Object Repository/AdminPage/div_Admin'), 'Admin')
 
-WebUI.doubleClick(findTestObject('Object Repository/AdminPage/span_(1) Record Found'))
-
-WebUI.click(findTestObject('Object Repository/AdminPage/span_(1) Record Found'))
-
-WebUI.click(findTestObject('Object Repository/AdminPage/div_Admin'))
-
-WebUI.doubleClick(findTestObject('Object Repository/AdminPage/div_manda user'))
-
-WebUI.click(findTestObject('Object Repository/AdminPage/div_manda user'))
+WebUI.verifyElementText(findTestObject('Object Repository/AdminPage/UserNameInSearchResult'), 'manda user')
 
