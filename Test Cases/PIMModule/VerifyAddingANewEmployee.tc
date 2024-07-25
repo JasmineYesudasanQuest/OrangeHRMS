@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify adding a new employee from pim module</description>
+   <name>VerifyAddingANewEmployee</name>
+   <tag>PIM</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ebb826bb-62b1-4b85-8a14-1b314be5ba95</testCaseGuid>
+</TestCaseEntity>
