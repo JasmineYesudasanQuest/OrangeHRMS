@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('LoginPage/PasswordField'), 'hUKwJTbofgPU9
 
 WebUI.click(findTestObject('LoginPage/LoginButton'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/AddUser/span_Admin'))
+WebUI.click(findTestObject('HomePage/Page_OrangeHRM/AdminLink'))
 
 WebUI.click(findTestObject('Object Repository/AdminPage/AddUser/AddUserButton'))
 

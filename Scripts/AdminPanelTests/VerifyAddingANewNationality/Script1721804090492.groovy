@@ -17,9 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*Write a catalon studio test case for the following case
- * 1.Open browser to the url : https://opensource-demo.orangehrmlive.com/
- * 2.Enter username as Admin
- * 3.Enter password as admin123
- * 4.Click on login button
- * */
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+WebUI.setText(findTestObject('LoginPage/UserNameField'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('LoginPage/PasswordField'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('LoginPage/LoginButton'))
+
+WebUI.click(findTestObject('HomePage/Page_OrangeHRM/AdminLink'))
+
+WebUI.click(findTestObject('Object Repository/Nationality/NationalitiesLink'))
+
+WebUI.click(findTestObject('Object Repository/Nationality/AddNationalityButton'))
+
+WebUI.setText(findTestObject('Nationality/NationalityCheckBox'), 'aaaaa')
+
+WebUI.click(findTestObject('Object Repository/Nationality/SaveNationalityButton'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Nationality/SuccessMessage'), 'Succesfully Saved')
+

@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Nationality/NationalitiesLink",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/header/div[2]/nav/ul/li[5]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Qualifications\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Nationality/NationalitiesLink_neighbor.png"
+    }
+  ]
 }
