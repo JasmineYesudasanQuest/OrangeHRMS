@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify editing the name of added nationality</description>
+   <name>VerifyEditingNationality</name>
+   <tag>Admin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>019c4c8a-1837-47e9-be6b-460a37013c62</testCaseGuid>
+</TestCaseEntity>
