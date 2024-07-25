@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/PIM Module/AddEmployee/button_Logi
 
 WebUI.click(findTestObject('Object Repository/PIM Module/AddEmployee/a_PIM'))
 
-WebUI.click(findTestObject('Object Repository/PIM Module/AddEmployee/a_Add Employee'))
+WebUI.click(findTestObject('Object Repository/PIM Module/AddEmployee/AddEmployeeLink'))
 
 WebUI.setText(findTestObject('Object Repository/PIM Module/AddEmployee/input_Employee Full Name_firstName'), 'Demo First Name')
 

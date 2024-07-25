@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Configuring optional fields in pim modue</description>
+   <name>VerifyConfiguringOptionalFields</name>
+   <tag>PIM</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df60d07a-826f-481d-aa12-6644f9b7fbb0</testCaseGuid>
+</TestCaseEntity>

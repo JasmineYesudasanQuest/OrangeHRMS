@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Add Employee</name>
+   <name>AddEmployeeLink</name>
    <tag></tag>
    <elementGuidId>0dcf059d-a994-40b6-932a-5ab78e37bfbf</elementGuidId>
    <selectorCollection>
