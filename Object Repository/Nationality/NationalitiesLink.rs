@@ -6,12 +6,12 @@
    <elementGuidId>997cb81d-4263-40fa-a97a-579757350c55</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li[5]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.oxd-topbar-body-nav-tab-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

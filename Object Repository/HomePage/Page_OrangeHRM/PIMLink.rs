@@ -6,12 +6,12 @@
    <elementGuidId>76eec3a1-dd7a-4dcc-9f09-0f6e5bd0e892</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5c84921c-98fb-4a38-bdef-94e6c0d8b149</webElementGuid>
+      <webElementGuid>6155ad70-39d1-40bb-b275-f0da7e0b8da1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>72bb150c-8d22-4635-8b66-b75a063939c6</webElementGuid>
+      <webElementGuid>2ecc64fc-aa96-480c-9fb6-9216ac5924e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/pim/viewPimModule</value>
-      <webElementGuid>9847c32c-792c-4111-807c-44b6ea86b04a</webElementGuid>
+      <webElementGuid>9c9291ce-396c-40ea-8b68-4ad3c22f677d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PIM</value>
-      <webElementGuid>ee2ea4b5-b2b5-4e0a-9846-5752f65050fd</webElementGuid>
+      <webElementGuid>f5fcb8f5-f1e1-4729-9333-4da653f66fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>1fd1cea3-e87c-4172-a8fd-f03ee640661c</webElementGuid>
+      <webElementGuid>26e9e652-36ee-4d5d-a96c-6e221601b7d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a</value>
-      <webElementGuid>294c9e78-c20e-4f1b-a13c-4d0be446711d</webElementGuid>
+      <webElementGuid>695a0452-16c7-423d-b89c-c1cd44d6fc47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/pim/viewPimModule')]</value>
-      <webElementGuid>db460064-671b-47eb-82cb-b85620111ac1</webElementGuid>
+      <webElementGuid>efc9d1c6-1169-447e-902d-ebafd85fdd96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>73686d7e-993d-4c0e-b264-66c5023de07a</webElementGuid>
+      <webElementGuid>cd2d4db6-8cd0-4af8-904f-2f026c677332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]</value>
-      <webElementGuid>774e32d5-ece8-4d09-b61a-621596f2fb55</webElementGuid>
+      <webElementGuid>15d17bb8-0d7e-4a01-bb7b-f587e0be7e0f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
