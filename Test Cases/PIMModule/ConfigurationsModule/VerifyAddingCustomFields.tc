@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verify custom fields</description>
+   <name>VerifyAddingCustomFields</name>
+   <tag>PIM</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc4fe2cc-563b-4226-a304-7f6f78809443</testCaseGuid>
+</TestCaseEntity>

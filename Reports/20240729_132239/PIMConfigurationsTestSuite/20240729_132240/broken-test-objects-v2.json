@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focus",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div[2]/div/div[2]/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240729_132239/PIMConfigurationsTestSuite/20240729_132240/Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focus_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div[3]/div/div[5]/div/label/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//label/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240729_132239/PIMConfigurationsTestSuite/20240729_132240/Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62_position.png"
+    }
+  ]
+}

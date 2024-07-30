@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDeletingReports</name>
+   <tag>PIM</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6326623f-50f4-4596-abcd-b39d818b970c</testCaseGuid>
+</TestCaseEntity>

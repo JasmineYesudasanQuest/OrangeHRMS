@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PIMConfigurationsTestSuite,Chrome 126.0.0.0,,,29-07-2024 13:23:02,29-07-2024 13:28:46,5m - 44.014s,FAILED
+,,,,,,,
+Test Cases/PIMModule/VerifyAddingANewEmployee,Chrome 126.0.0.0,Verify adding a new employee from pim module,PIM,29-07-2024 13:23:03,29-07-2024 13:24:32,1m - 28.609s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 13:23:04,29-07-2024 13:23:14,10.150s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,29-07-2024 13:23:14,29-07-2024 13:23:23,9.196s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Username_username""), ""Admin"")",Chrome 126.0.0.0,,,29-07-2024 13:23:23,29-07-2024 13:23:27,3.918s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 126.0.0.0,,,29-07-2024 13:23:27,29-07-2024 13:23:30,2.586s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 13:23:30,29-07-2024 13:23:33,3.421s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/a_PIM""))",Chrome 126.0.0.0,,,29-07-2024 13:23:33,29-07-2024 13:23:39,5.636s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/AddEmployeeLink""))",Chrome 126.0.0.0,,,29-07-2024 13:23:39,29-07-2024 13:23:42,3.065s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Full Name_firstName""), ""Demo First Name"")",Chrome 126.0.0.0,,,29-07-2024 13:23:42,29-07-2024 13:23:46,3.972s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Full Name_middleName""), ""Demo Middle Name"")",Chrome 126.0.0.0,,,29-07-2024 13:23:46,29-07-2024 13:23:48,1.797s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Full Name_lastName""), ""Demo Last Name"")",Chrome 126.0.0.0,,,29-07-2024 13:23:48,29-07-2024 13:23:50,1.988s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/i_Add Employee_oxd-icon bi-plus""))",Chrome 126.0.0.0,,,29-07-2024 13:23:50,29-07-2024 13:23:51,1.062s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/button_Save""))",Chrome 126.0.0.0,,,29-07-2024 13:23:51,29-07-2024 13:23:52,1.290s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016""), """")",Chrome 126.0.0.0,,,29-07-2024 13:23:52,29-07-2024 13:23:55,2.744s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focus""), ""0987"")",Chrome 126.0.0.0,,,29-07-2024 13:23:55,29-07-2024 13:24:30,35.462s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/button_Save""))",Chrome 126.0.0.0,,,29-07-2024 13:24:30,29-07-2024 13:24:31,1.053s,PASSED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields,Chrome 126.0.0.0,verify custom fields,PIM,29-07-2024 13:25:09,29-07-2024 13:25:20,11.679s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 13:25:09,29-07-2024 13:25:12,3.009s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,29-07-2024 13:25:12,29-07-2024 13:25:20,8.475s,PASSED
+"setText(findTestObject(""Object Repository/input_Password_oxd-input oxd-input--active""), ""Admin"")",Chrome 126.0.0.0,,,29-07-2024 13:25:20,29-07-2024 13:25:20,0.165s,FAILED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields,Chrome 126.0.0.0,Verify Configuring optional fields in pim modue,PIM,29-07-2024 13:25:20,29-07-2024 13:27:54,2m - 33.133s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 13:25:21,29-07-2024 13:25:24,3.557s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,29-07-2024 13:25:24,29-07-2024 13:25:32,7.361s,PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,29-07-2024 13:25:32,29-07-2024 13:25:33,1.112s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/Configurations/input_Username_username""), ""Admin"")",Chrome 126.0.0.0,,,29-07-2024 13:25:33,29-07-2024 13:25:35,1.903s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PIM Module/Configurations/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 126.0.0.0,,,29-07-2024 13:25:35,29-07-2024 13:25:36,1.655s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/button_Login""))",Chrome 126.0.0.0,,,29-07-2024 13:25:36,29-07-2024 13:25:39,2.367s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/a_PIM""))",Chrome 126.0.0.0,,,29-07-2024 13:25:39,29-07-2024 13:25:42,3.698s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/li_Configuration""))",Chrome 126.0.0.0,,,29-07-2024 13:25:42,29-07-2024 13:25:44,1.259s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/li_Optional Fields""))",Chrome 126.0.0.0,,,29-07-2024 13:25:44,29-07-2024 13:25:45,1.449s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",Chrome 126.0.0.0,,,29-07-2024 13:25:45,29-07-2024 13:26:17,32.098s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",Chrome 126.0.0.0,,,29-07-2024 13:26:17,29-07-2024 13:26:49,31.495s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",Chrome 126.0.0.0,,,29-07-2024 13:26:49,29-07-2024 13:27:20,31.504s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",Chrome 126.0.0.0,,,29-07-2024 13:27:20,29-07-2024 13:27:51,31.432s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/button_Save""))",Chrome 126.0.0.0,,,29-07-2024 13:27:52,29-07-2024 13:27:52,0.686s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/p_Success""))",Chrome 126.0.0.0,,,29-07-2024 13:27:52,29-07-2024 13:27:54,1.403s,PASSED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields,Chrome 126.0.0.0,Verify optional fields,PIM,29-07-2024 13:28:36,29-07-2024 13:28:46,10.344s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 13:28:36,29-07-2024 13:28:38,2.654s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,29-07-2024 13:28:38,29-07-2024 13:28:46,7.477s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/input_Password_oxd-input oxd-input--active""), ""Admin"")",Chrome 126.0.0.0,,,29-07-2024 13:28:46,29-07-2024 13:28:46,0.182s,FAILED

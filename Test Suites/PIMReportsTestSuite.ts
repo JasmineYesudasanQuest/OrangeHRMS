@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>PIMModuleTestSuite</name>
+   <name>PIMReportsTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>53f5a77c-046d-45bf-b081-b5f687ffd601</testSuiteGuid>
+   <testSuiteGuid>b44d8194-8fe5-407b-8941-e9e4e65a5579</testSuiteGuid>
    <testCaseLink>
-      <guid>57a9c9d4-a5c3-4d04-a773-d28aebde1158</guid>
+      <guid>6343ea79-2238-425d-9b2f-040844119009</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields</testCaseId>
+      <testCaseId>Test Cases/PIMModule/PIMReports/VerifyAddingANewReport</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4082adea-23cb-485a-9c51-5c5e36d029a7</guid>
+      <guid>0861fe0f-1f88-439b-b03d-d1439ad0ddb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PIMModule/VerifyAddingANewEmployee</testCaseId>
+      <testCaseId>Test Cases/PIMModule/PIMReports/VerifyDeletingReports</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

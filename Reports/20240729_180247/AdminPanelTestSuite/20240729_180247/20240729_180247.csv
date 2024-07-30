@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminPanelTestSuite,TestCloud - Windows - Chrome 127.0.0.0,Test cases related to admin page,,29-07-2024 18:02:58,29-07-2024 18:40:24,37m - 26.025s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyAddingANewNationality,TestCloud - Windows - Chrome 127.0.0.0,Add a new natalionality and verify,Admin,29-07-2024 18:11:23,29-07-2024 18:13:24,2m - 1.076s,FAILED
+"openBrowser("""")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:11:23,29-07-2024 18:11:51,28.779s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:11:51,29-07-2024 18:12:15,23.337s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:12:15,29-07-2024 18:12:20,5.615s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:12:20,29-07-2024 18:12:23,2.295s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:12:23,29-07-2024 18:12:26,3.853s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:12:26,29-07-2024 18:12:31,4.053s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalitiesLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:12:31,29-07-2024 18:12:34,2.956s,PASSED
+"click(findTestObject(""Object Repository/Nationality/AddNationalityButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:12:34,29-07-2024 18:12:36,2.644s,PASSED
+"setText(findTestObject(""Nationality/NationalityCheckBox""), ""aaaaa"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:12:36,29-07-2024 18:13:24,47.388s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyAddingANewUser,TestCloud - Windows - Chrome 127.0.0.0,Verify adding a new user,Admin,29-07-2024 18:13:24,29-07-2024 18:19:24,6m - 0.204s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:13:24,29-07-2024 18:14:09,45.035s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:14:09,29-07-2024 18:14:30,21.505s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:14:30,29-07-2024 18:14:35,4.833s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:14:35,29-07-2024 18:14:37,2.266s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:14:37,29-07-2024 18:14:42,4.126s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:14:42,29-07-2024 18:14:47,5.145s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/AddUserButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:14:47,29-07-2024 18:14:49,2.048s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/UserTypeDropDownInAddPage""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:14:49,29-07-2024 18:15:38,49.276s,PASSED
+"setText(findTestObject(""Object Repository/AdminPage/AddUser/UserHintTextBox""), ""a"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:15:38,29-07-2024 18:16:48,1m - 9.806s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/UserHintOption""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:16:48,29-07-2024 18:17:27,39.489s,PASSED
+"setText(findTestObject(""Object Repository/AdminPage/AddUser/input_Username_oxd-input oxd-input--focus""), ""Jas12345"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:17:27,29-07-2024 18:18:36,1m - 8.980s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AdminPage/AddUser/input_Password_oxd-input oxd-input--active""), ""PJhMHmON9HDHgTfDu48tsA=="")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:18:36,29-07-2024 18:19:19,42.979s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/button_Save""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:19:19,29-07-2024 18:19:21,1.771s,PASSED
+closeBrowser(),TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:19:21,29-07-2024 18:19:24,2.809s,PASSED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyDeletingNationality,TestCloud - Windows - Chrome 127.0.0.0,Verify deleting nationality,,29-07-2024 18:26:01,29-07-2024 18:28:01,2m - 0.181s,FAILED
+"openBrowser("""")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:01,29-07-2024 18:26:23,21.889s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:23,29-07-2024 18:26:25,2.693s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:25,29-07-2024 18:26:43,17.464s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:43,29-07-2024 18:26:48,5.098s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:48,29-07-2024 18:26:50,2.293s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:50,29-07-2024 18:26:52,1.863s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:52,29-07-2024 18:26:58,5.786s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalitiesLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:26:58,29-07-2024 18:27:01,2.853s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalityItem""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:27:01,29-07-2024 18:27:05,3.790s,PASSED
+"click(findTestObject(""Object Repository/Nationality/button_Yes, Delete""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:27:05,29-07-2024 18:27:06,1.837s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Nationality/SuccessMessageOnDeletingNationality""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:27:06,29-07-2024 18:28:01,54.582s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyEditingNationality,TestCloud - Windows - Chrome 127.0.0.0,Verify editing the name of added nationality,Admin,29-07-2024 18:32:32,29-07-2024 18:34:04,1m - 31.587s,FAILED
+"openBrowser("""")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:32:32,29-07-2024 18:33:16,44.078s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:33:16,29-07-2024 18:33:42,25.529s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:33:42,29-07-2024 18:33:47,5.156s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:33:47,29-07-2024 18:33:49,2.358s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:33:49,29-07-2024 18:33:54,4.329s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:33:54,29-07-2024 18:33:58,4.616s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalitiesLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:33:58,29-07-2024 18:34:03,4.334s,PASSED
+"setText(findTestObject(""Object Repository/Nationality/input_Password_oxd-input oxd-input--active""), ""aaaaa edited edited"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:34:03,29-07-2024 18:34:04,1.148s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyEmployeeSearch,TestCloud - Windows - Chrome 127.0.0.0,Verify searching for an employee,Admin,29-07-2024 18:39:04,29-07-2024 18:40:24,1m - 19.270s,FAILED
+"openBrowser("""")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:39:04,29-07-2024 18:39:31,26.575s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:39:31,29-07-2024 18:39:48,16.756s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:39:48,29-07-2024 18:39:54,6.139s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:39:54,29-07-2024 18:39:56,2.693s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:39:56,29-07-2024 18:40:01,4.411s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:40:01,29-07-2024 18:40:06,4.897s,PASSED
+"setText(findTestObject(""Object Repository/AdminPage/UserNameFieldForSearch""), ""admin"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:40:06,29-07-2024 18:40:11,5.427s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/SearchButton""))",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:40:11,29-07-2024 18:40:13,1.812s,PASSED
+"verifyElementText(findTestObject(""AdminPage/RecordFoundText""), ""(1) Record Found"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:40:13,29-07-2024 18:40:16,3.304s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AdminPage/div_Admin""), ""Admin"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:40:16,29-07-2024 18:40:19,2.240s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AdminPage/UserNameInSearchResult""), ""manda user"")",TestCloud - Windows - Chrome 127.0.0.0,,,29-07-2024 18:40:19,29-07-2024 18:40:24,4.975s,FAILED

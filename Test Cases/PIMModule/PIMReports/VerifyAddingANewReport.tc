@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAddingANewReport</name>
+   <tag>PIM</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c6ad683-8288-4043-8afa-528b04fc5912</testCaseGuid>
+</TestCaseEntity>

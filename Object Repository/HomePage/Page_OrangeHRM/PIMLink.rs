@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6155ad70-39d1-40bb-b275-f0da7e0b8da1</webElementGuid>
+      <webElementGuid>c92d08fa-fcf1-4bf1-9864-7c25269fedbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-main-menu-item</value>
-      <webElementGuid>2ecc64fc-aa96-480c-9fb6-9216ac5924e0</webElementGuid>
+      <webElementGuid>80df88f6-17db-48d4-b366-292ff3a55d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/pim/viewPimModule</value>
-      <webElementGuid>9c9291ce-396c-40ea-8b68-4ad3c22f677d</webElementGuid>
+      <webElementGuid>bca5a1f4-b497-46de-8890-ab4b3acdef81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PIM</value>
-      <webElementGuid>f5fcb8f5-f1e1-4729-9333-4da653f66fcc</webElementGuid>
+      <webElementGuid>3830ddd9-2152-46da-96b2-e84585f48951</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]/li[@class=&quot;oxd-main-menu-item-wrapper&quot;]/a[@class=&quot;oxd-main-menu-item&quot;]</value>
-      <webElementGuid>26e9e652-36ee-4d5d-a96c-6e221601b7d2</webElementGuid>
+      <webElementGuid>23593626-8bcc-4406-b539-6053c3e12f8b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/aside/nav/div[2]/ul/li[2]/a</value>
-      <webElementGuid>695a0452-16c7-423d-b89c-c1cd44d6fc47</webElementGuid>
+      <webElementGuid>f53fa9bc-ab92-41a6-8f7a-ba566ddb2eab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/pim/viewPimModule')]</value>
-      <webElementGuid>efc9d1c6-1169-447e-902d-ebafd85fdd96</webElementGuid>
+      <webElementGuid>e539e594-e60c-4056-9133-f477f502a07b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>cd2d4db6-8cd0-4af8-904f-2f026c677332</webElementGuid>
+      <webElementGuid>b5fe8c34-7773-4c8a-a3a5-cea208b91003</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/pim/viewPimModule' and (text() = 'PIM' or . = 'PIM')]</value>
-      <webElementGuid>15d17bb8-0d7e-4a01-bb7b-f587e0be7e0f</webElementGuid>
+      <webElementGuid>15f740e2-607b-4616-9050-8b485d5b6fb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

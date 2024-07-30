@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PIMReportsTestSuite,Chrome 126.0.0.0,,,29-07-2024 13:23:02,29-07-2024 13:24:07,1m - 5.308s,FAILED
+,,,,,,,
+Test Cases/PIMModule/PIMReports/VerifyAddingANewReport,Chrome 126.0.0.0,,PIM,29-07-2024 13:23:56,29-07-2024 13:24:07,11.178s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,29-07-2024 13:23:56,29-07-2024 13:24:00,3.356s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,29-07-2024 13:24:00,29-07-2024 13:24:07,7.555s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/input_Password_oxd-input oxd-input--active""), ""Admin"")",Chrome 126.0.0.0,,,29-07-2024 13:24:07,29-07-2024 13:24:07,0.174s,FAILED
