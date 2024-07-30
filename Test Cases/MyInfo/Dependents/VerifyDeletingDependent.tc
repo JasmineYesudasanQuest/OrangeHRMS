@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDeletingDependent</name>
+   <tag>MyInfo</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76a65154-f715-4cd5-aa69-6c69cd529f93</testCaseGuid>
+</TestCaseEntity>

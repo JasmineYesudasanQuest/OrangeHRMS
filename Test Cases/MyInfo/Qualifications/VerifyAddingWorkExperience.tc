@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAddingWorkExperience</name>
+   <tag>MyInfo</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ac1a814-c4df-4392-ad2c-bec636c20264</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify editing personal details</description>
+   <name>VerifyEditingPersonalDetails</name>
+   <tag>MyInfo</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e6467e4-fee9-4f3f-b2a4-d9df81f77cd7</testCaseGuid>
+</TestCaseEntity>
