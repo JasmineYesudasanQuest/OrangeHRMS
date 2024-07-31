@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='oxd-toaster_1']/div</value>
+         <value>//div[2]/div</value>
       </entry>
       <entry>
          <key>CSS</key>

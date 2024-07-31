@@ -1,0 +1,54 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[2]/div/textarea",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div/div/div/div[2]/form/div/textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240731_164620/BuzzModule/20240731_164621/Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/button_Post",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027OrangeHRM, Inc\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240731_164620/BuzzModule/20240731_164621/Object Repository/BuzzModule/button_Post_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/div_SuccessSuccessfully Saved",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240731_164620/BuzzModule/20240731_164621/Object Repository/BuzzModule/div_SuccessSuccessfully Saved_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/button_Yes, Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[25]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240731_164620/BuzzModule/20240731_164621/Object Repository/BuzzModule/button_Yes, Delete_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div/div[3]/div/div/div/div/div[2]/li/button/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240731_164620/BuzzModule/20240731_164621/Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots_position.png"
+    }
+  ]
+}

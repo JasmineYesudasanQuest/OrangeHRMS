@@ -2,13 +2,33 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Leave/div_SuccessSuccessfully Updated",
-      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div",
+      "testObjectId": "Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div[2]/div/div/div/form/div/div[2]/div/textarea",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div[2]/div",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div/div/div/div[2]/form/div/textarea",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Leave/div_SuccessSuccessfully Updated_position.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/button_Yes, Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[25]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuzzModule/button_Yes, Delete_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div/div[3]/div/div/div/div/div[2]/li/button/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots_position.png"
     }
   ]
 }
