@@ -21,33 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/input_Password_oxd-input oxd-input--active'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/Leave/input_Username_username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input_Password_oxd-input oxd-input--active'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Leave/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/button_Login'))
+WebUI.click(findTestObject('Object Repository/Leave/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/PIMLink'))
+WebUI.click(findTestObject('Object Repository/Leave/a_Leave'))
 
-WebUI.click(findTestObject('Object Repository/li_Configuration'))
+WebUI.click(findTestObject('Object Repository/Leave/a_Apply'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/a_Custom Fields'))
+WebUI.click(findTestObject('Object Repository/Leave/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec'))
 
-WebUI.click(findTestObject('Object Repository/AddUserButton'))
+WebUI.click(findTestObject('Object Repository/Leave/i_From Date_oxd-icon bi-calendar oxd-date-i_f3a9ef'))
 
-WebUI.setText(findTestObject('Object Repository/input_Password_oxd-input oxd-input--active'), 'Test Custom Field')
+WebUI.click(findTestObject('Object Repository/Leave/div_31'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/div_Screen-- Select --'))
+WebUI.setText(findTestObject('Object Repository/Leave/textarea_Comments_oxd-textarea oxd-textarea_6464fb'), ',nvmdxnfjdnv')
 
-WebUI.click(findTestObject('Object Repository/UserHintOption'))
+WebUI.click(findTestObject('Object Repository/Leave/button_Apply'))
 
-WebUI.click(findTestObject('Object Repository/UserHintOption'))
+WebUI.click(findTestObject('Object Repository/Leave/div_WarningFailed to Submit'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/div_Text or Number'))
+WebUI.click(findTestObject('Object Repository/Leave/div_DurationFull Day'))
 
-WebUI.click(findTestObject('Object Repository/HomePage/Page_OrangeHRM/div_TypeText or Number'))
-
-WebUI.click(findTestObject('Object Repository/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/PIM Module/p_Successfully Saved (1)'))
+WebUI.click(findTestObject('Object Repository/Leave/i_From Date_oxd-icon bi-calendar oxd-date-i_f3a9ef'))
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyingCancellingLeave</name>
+   <tag>Leave</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>543588ff-dcb6-4aa9-9983-7829e7557601</testCaseGuid>
+</TestCaseEntity>

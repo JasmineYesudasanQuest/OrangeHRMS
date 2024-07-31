@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_Successfully Saved</name>
+   <name>p_Successfully Saved (1)</name>
    <tag></tag>
    <elementGuidId>f3f5271c-c611-4d07-ad46-8cca5293656a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.oxd-text.oxd-text--p.oxd-text--toast-message.oxd-toast-content-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.oxd-text.oxd-text--p.oxd-text--toast-message.oxd-toast-content-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

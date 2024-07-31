@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Screen-- Select --</name>
+   <name>div_SuccessSuccessfully Deleted</name>
    <tag></tag>
-   <elementGuidId>6f948f0b-aace-49c8-aaa4-21f4c7c48193</elementGuidId>
+   <elementGuidId>a4c7e224-4deb-4672-9597-aed91d927f29</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='oxd-toaster_1']/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]</value>
+         <key>CSS</key>
+         <value>div.oxd-toast.oxd-toast--success.oxd-toast-container--toast</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=/^Screen-- Select --$/ >> nth=0</value>
+         <value>internal:text=&quot;SuccessSuccessfully Deleted×&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,62 +29,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4d206750-b61a-496f-abfc-e427d177f142</webElementGuid>
+      <webElementGuid>24e40dca-659e-48a7-bfe9-e62341173442</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-grid-item oxd-grid-item--gutters</value>
-      <webElementGuid>ebb68ad3-dca4-4307-a6cc-6ae91142c964</webElementGuid>
+      <value>oxd-toast oxd-toast--success oxd-toast-container--toast</value>
+      <webElementGuid>d7be5592-15ec-4588-8909-21c3bb028205</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>assertive</value>
+      <webElementGuid>2e4a545e-5b4c-42eb-8bb0-bccac94b2419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Screen-- Select --</value>
-      <webElementGuid>f5725245-b0bc-4f3a-b5b0-e2133dd83f34</webElementGuid>
+      <value>SuccessSuccessfully Deleted×</value>
+      <webElementGuid>9acc5fba-4404-463f-9b53-2516725b7d4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]</value>
-      <webElementGuid>a4374066-d452-4289-8836-29e96845c92c</webElementGuid>
+      <value>id(&quot;oxd-toaster_1&quot;)/div[@class=&quot;oxd-toast oxd-toast--success oxd-toast-container--toast&quot;]</value>
+      <webElementGuid>1f642726-a12e-45b5-bf9a-40708b1e27ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div/div[2]</value>
-      <webElementGuid>c330f44b-e840-4846-b9c3-5f3cfaab5831</webElementGuid>
+      <value>//div[@id='oxd-toaster_1']/div</value>
+      <webElementGuid>fe6a4dc7-3d7d-4de6-99d1-98a0199454de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Field Name'])[1]/following::div[2]</value>
-      <webElementGuid>a9caf968-d174-426e-871c-a2e7633eb962</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::div[2]</value>
+      <webElementGuid>c2a963f1-b3ad-4542-b968-c90ef60b6d2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div/div[2]</value>
-      <webElementGuid>398cfc7e-f23f-459a-a9bd-47b5223e8209</webElementGuid>
+      <value>//div[2]/div</value>
+      <webElementGuid>9a5bf7da-e7b1-4db2-aa5c-c1c95ac48896</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Screen-- Select --' or . = 'Screen-- Select --')]</value>
-      <webElementGuid>12c538f7-8461-4122-adcc-1ae3b96bd9d2</webElementGuid>
+      <value>//div[(text() = 'SuccessSuccessfully Deleted×' or . = 'SuccessSuccessfully Deleted×')]</value>
+      <webElementGuid>ed4ad5bf-4694-46d6-a8e8-ba9fce9c02fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

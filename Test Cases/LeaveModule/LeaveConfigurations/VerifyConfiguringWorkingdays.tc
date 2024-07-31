@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyConfiguringWorkingdays</name>
+   <tag>Leaves</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5c44faf3-d0fc-4353-bffa-5fe5d54d4f5e</testCaseGuid>
+</TestCaseEntity>

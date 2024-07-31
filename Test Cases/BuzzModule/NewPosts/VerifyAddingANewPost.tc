@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyAddingANewPost</name>
+   <tag>Buzz</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d6f55b59-d075-40c9-9021-500f5b4b3928</testCaseGuid>
+</TestCaseEntity>

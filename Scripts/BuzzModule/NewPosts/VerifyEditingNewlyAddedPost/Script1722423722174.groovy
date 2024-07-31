@@ -21,33 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/input_Password_oxd-input oxd-input--active'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/BuzzModule/input_Username_username'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input_Password_oxd-input oxd-input--active'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/BuzzModule/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/button_Login'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/PIMLink'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/span_Buzz'))
 
-WebUI.click(findTestObject('Object Repository/li_Configuration'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/a_Custom Fields'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/html_OrangeHRM                  katalonfont_8f13ef'))
 
-WebUI.click(findTestObject('Object Repository/AddUserButton'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots'))
 
-WebUI.setText(findTestObject('Object Repository/input_Password_oxd-input oxd-input--active'), 'Test Custom Field')
+WebUI.click(findTestObject('Object Repository/BuzzModule/p_Edit Post'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/div_Screen-- Select --'))
+WebUI.setText(findTestObject('Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input'), 'gyug ,smdksamd')
 
-WebUI.click(findTestObject('Object Repository/UserHintOption'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/i__oxd-icon bi-images orangehrm-photo-upload-icon'))
 
-WebUI.click(findTestObject('Object Repository/UserHintOption'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/button_Post'))
 
-WebUI.click(findTestObject('Object Repository/AdminPage/div_Text or Number'))
-
-WebUI.click(findTestObject('Object Repository/HomePage/Page_OrangeHRM/div_TypeText or Number'))
-
-WebUI.click(findTestObject('Object Repository/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/PIM Module/p_Successfully Saved (1)'))
+WebUI.click(findTestObject('Object Repository/BuzzModule/div_SuccessSuccessfully Updated'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>5e0113d1-ee93-4998-82a6-2bdfcb0d4057</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(2) > a.oxd-topbar-body-nav-tab-link</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/header/div[2]/nav/ul/li/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > a.oxd-topbar-body-nav-tab-link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

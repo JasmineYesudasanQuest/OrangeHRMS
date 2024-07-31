@@ -6,12 +6,12 @@
    <elementGuidId>aa67b11a-c4b2-48f4-82d1-472d1d178886</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.oxd-select-text.oxd-select-text--focus</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[2]/div/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.oxd-select-text.oxd-select-text--focus</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

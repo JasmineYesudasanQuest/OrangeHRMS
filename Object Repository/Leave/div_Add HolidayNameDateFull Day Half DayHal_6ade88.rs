@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_TypeText or Number</name>
+   <name>div_Add HolidayNameDateFull Day Half DayHal_6ade88</name>
    <tag></tag>
-   <elementGuidId>739824d3-b3c9-4f55-8182-3fc43427322b</elementGuidId>
+   <elementGuidId>fecd6abd-5521-445e-8b90-0d560f2b0039</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[2]/div</value>
+         <key>CSS</key>
+         <value>div.orangehrm-card-container</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=/^TypeText or Number$/ >> nth=1</value>
+         <value>internal:text=&quot;Add HolidayNameDateFull Day/ Half DayHalf DayRepeats AnnuallyYesNo * Required Ca&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e0cfa533-0e77-42c2-ac7c-656ab5939de8</webElementGuid>
+      <webElementGuid>293be678-da52-45db-9ecc-19e43e3915f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-grid-2 orangehrm-full-width-grid</value>
-      <webElementGuid>c0fdc84b-40ae-4ae9-a120-0d7e1a73b999</webElementGuid>
+      <value>orangehrm-card-container</value>
+      <webElementGuid>e5ae3795-f071-434b-b70d-c6d89ba9e039</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>TypeText or Number</value>
-      <webElementGuid>d3c6af18-5648-4058-b252-25b509b3f5c0</webElementGuid>
+      <value>Add HolidayNameDateFull Day/ Half DayHalf DayRepeats AnnuallyYesNo * Required Cancel  Save </value>
+      <webElementGuid>ee9e8c64-fbcb-4776-96ee-189bd6dc3b7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]</value>
-      <webElementGuid>963179ef-b98b-4edb-b2b4-b20821fbab3c</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]</value>
+      <webElementGuid>c7998b57-7d4d-4d04-9833-46b52754a91f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/form/div[2]/div</value>
-      <webElementGuid>c2ffc9bb-8ebc-44a7-a10c-8a0eba13da4a</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div</value>
+      <webElementGuid>48b8b9f8-8709-46eb-a6ab-36c3c79a7136</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Details'])[1]/following::div[3]</value>
-      <webElementGuid>caba29aa-b791-41c8-a0e4-74fab19730a7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure'])[1]/following::div[6]</value>
+      <webElementGuid>7434f7e3-c7f0-4682-bc9c-6dfb311b9893</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Screen'])[1]/following::div[7]</value>
-      <webElementGuid>907b67ab-a79a-469f-9fbe-61e9c3cbb88b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/following::div[6]</value>
+      <webElementGuid>cd8e8df0-c123-4caf-af92-fa19f40d8142</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]/div</value>
-      <webElementGuid>3cf1dc89-0f41-4ec5-a745-13957fe4baf4</webElementGuid>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>a5583b72-2a3d-4a64-a8f5-5691d0013e7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'TypeText or Number' or . = 'TypeText or Number')]</value>
-      <webElementGuid>822fae96-44ae-4e0f-93e4-180381ac16f7</webElementGuid>
+      <value>//div[(text() = 'Add HolidayNameDateFull Day/ Half DayHalf DayRepeats AnnuallyYesNo * Required Cancel  Save ' or . = 'Add HolidayNameDateFull Day/ Half DayHalf DayRepeats AnnuallyYesNo * Required Cancel  Save ')]</value>
+      <webElementGuid>52553fc1-3f64-4ac9-878d-b179265bd9bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
