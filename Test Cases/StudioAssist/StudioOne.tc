@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>StudioOne</name>
+   <tag>studio</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>250c9354-d7b2-4acd-a8c4-16f2ad73b761</testCaseGuid>
+</TestCaseEntity>
