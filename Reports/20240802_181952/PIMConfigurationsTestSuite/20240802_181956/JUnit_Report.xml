@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PIMConfigurationsTestSuite" time="685.48" tests="4" failures="2" errors="0">
+   <testsuite name="PIMConfigurationsTestSuite" tests="4" failures="2" errors="0" time="685.48" skipped="0" timestamp="02-08-2024T18:20:32" hostname="Jasmine - LAPTOP-E0HSAR0R" id="Test Suites/PIMConfigurationsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956"/>
+         <property name="logFiles" value="D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\execution0.log"/>
+         <property name="attachments" value="D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603242296.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603274225.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603298672.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603313759.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603416280.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603481268.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603623666.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603660442.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603688011.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603717453.png"/>
+         <property name="hostName" value="Jasmine - LAPTOP-E0HSAR0R"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="sessionId" value="fef67d9a2123aa05520e50a2d268f1d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/PIMModule/VerifyAddingANewEmployee" time="182.936" classname="Test Cases/PIMModule/VerifyAddingANewEmployee" status="PASSED">
+         <system-out><![CDATA[02-08-2024T18:20:34 - [TEST_CASE][PASSED] - Test Cases/PIMModule/VerifyAddingANewEmployee: Test Cases/PIMModule/VerifyAddingANewEmployee
+
+02-08-2024T18:20:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T18:20:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T18:20:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T18:21:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T18:21:06 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:21:16 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:21:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PIM Module/AddEmployee/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/PIM Module/AddEmployee/input_Username_username'
+
+02-08-2024T18:21:26 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PIM Module/AddEmployee/input_Username_username'
+
+02-08-2024T18:21:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PIM Module/AddEmployee/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/PIM Module/AddEmployee/input_Password_password'
+
+02-08-2024T18:21:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PIM Module/AddEmployee/input_Password_password'
+
+02-08-2024T18:21:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/AddEmployee/button_Login")): Object: 'Object Repository/PIM Module/AddEmployee/button_Login' is clicked on
+
+02-08-2024T18:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/AddEmployee/button_Login' is clicked on
+
+02-08-2024T18:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/AddEmployee/a_PIM")): Object: 'Object Repository/PIM Module/AddEmployee/a_PIM' is clicked on
+
+02-08-2024T18:21:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/AddEmployee/a_PIM' is clicked on
+
+02-08-2024T18:21:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/AddEmployee/AddEmployeeLink")): Object: 'Object Repository/PIM Module/AddEmployee/AddEmployeeLink' is clicked on
+
+02-08-2024T18:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/AddEmployee/AddEmployeeLink' is clicked on
+
+02-08-2024T18:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PIM Module/AddEmployee/input_Employee Full Name_firstName"), "Demo First Name"): Text 'Demo First Name' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Full Name_firstName'
+
+02-08-2024T18:22:11 - [MESSAGE][PASSED] - Text 'Demo First Name' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Full Name_firstName'
+
+02-08-2024T18:22:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PIM Module/AddEmployee/input_Employee Full Name_middleName"), "Demo Middle Name"): Text 'Demo Middle Name' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Full Name_middleName'
+
+02-08-2024T18:22:19 - [MESSAGE][PASSED] - Text 'Demo Middle Name' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Full Name_middleName'
+
+02-08-2024T18:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PIM Module/AddEmployee/input_Employee Full Name_lastName"), "Demo Last Name"): Text 'Demo Last Name' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Full Name_lastName'
+
+02-08-2024T18:22:24 - [MESSAGE][PASSED] - Text 'Demo Last Name' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Full Name_lastName'
+
+02-08-2024T18:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/AddEmployee/i_Add Employee_oxd-icon bi-plus")): Object: 'Object Repository/PIM Module/AddEmployee/i_Add Employee_oxd-icon bi-plus' is clicked on
+
+02-08-2024T18:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/AddEmployee/i_Add Employee_oxd-icon bi-plus' is clicked on
+
+02-08-2024T18:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/AddEmployee/button_Save")): Object: 'Object Repository/PIM Module/AddEmployee/button_Save' is clicked on
+
+02-08-2024T18:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/AddEmployee/button_Save' is clicked on
+
+02-08-2024T18:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016"), ""): Text '' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016'
+
+02-08-2024T18:23:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div[2]/div/div/form/div/div[2]/div/div[2]/div/div/div[2]/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-08-2024T18:23:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016'. Try using Self-healing.
+
+02-08-2024T18:23:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='app']/div/div[2]/div[2]/div/div/form/div/div[2]/div/div[2]/div/div/div[2]/input'.
+
+02-08-2024T18:23:09 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[2]/div/div/div[2]/input'.
+
+02-08-2024T18:23:15 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/KatalonTraining/CertificationProject/OrangeHRMS/OrangeHRMS/OrangeHRMS/Reports/Self-healing/Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016_position.png
+
+02-08-2024T18:23:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016' was broken. Propose an alternative one: '//div[2]/div/div/div[2]/input'.
+
+02-08-2024T18:23:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016'
+
+02-08-2024T18:23:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focus"), "0987"): Text '0987' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T18:23:32 - [MESSAGE][PASSED] - Text '0987' is set on object 'Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T18:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/AddEmployee/button_Save")): Object: 'Object Repository/PIM Module/AddEmployee/button_Save' is clicked on
+
+02-08-2024T18:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/AddEmployee/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields" time="23.555" classname="Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at VerifyAddingCustomFields.run(VerifyAddingCustomFields:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[02-08-2024T18:24:59 - [TEST_CASE][FAILED] - Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields: Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyAddingCustomFields.run(VerifyAddingCustomFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-08-2024T18:24:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T18:24:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-08-2024T18:25:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T18:25:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T18:25:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T18:25:11 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:25:13 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:25:13 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/input_Password_oxd-input oxd-input--active"), "Admin"): Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyAddingCustomFields.run(VerifyAddingCustomFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1722236567043.run(Script1722236567043.groovy:24)
+	... 18 more
+)
+
+02-08-2024T18:25:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/input_Password_oxd-input oxd-input--active' does not exist
+
+02-08-2024T18:25:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+02-08-2024T18:25:23 - [MESSAGE][FAILED] - Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyAddingCustomFields.run(VerifyAddingCustomFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1722236567043.run(Script1722236567043.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603313759.png]]]]></system-out>
+         <system-err><![CDATA[02-08-2024T18:24:59 - [TEST_CASE][FAILED] - Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields: Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyAddingCustomFields.run(VerifyAddingCustomFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields" time="104.266" classname="Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields" status="PASSED">
+         <system-out><![CDATA[02-08-2024T18:28:02 - [TEST_CASE][PASSED] - Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields: Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields
+
+02-08-2024T18:28:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T18:28:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-08-2024T18:28:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T18:28:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T18:28:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T18:28:21 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:28:33 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:28:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+02-08-2024T18:28:34 - [MESSAGE][PASSED] - Current window maximized
+
+02-08-2024T18:28:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PIM Module/Configurations/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/PIM Module/Configurations/input_Username_username'
+
+02-08-2024T18:28:43 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/PIM Module/Configurations/input_Username_username'
+
+02-08-2024T18:28:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/PIM Module/Configurations/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/PIM Module/Configurations/input_Password_password'
+
+02-08-2024T18:28:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/PIM Module/Configurations/input_Password_password'
+
+02-08-2024T18:28:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/button_Login")): Object: 'Object Repository/PIM Module/Configurations/button_Login' is clicked on
+
+02-08-2024T18:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/button_Login' is clicked on
+
+02-08-2024T18:29:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/a_PIM")): Object: 'Object Repository/PIM Module/Configurations/a_PIM' is clicked on
+
+02-08-2024T18:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/a_PIM' is clicked on
+
+02-08-2024T18:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/li_Configuration")): Object: 'Object Repository/PIM Module/Configurations/li_Configuration' is clicked on
+
+02-08-2024T18:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/li_Configuration' is clicked on
+
+02-08-2024T18:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/li_Optional Fields")): Object: 'Object Repository/PIM Module/Configurations/li_Optional Fields' is clicked on
+
+02-08-2024T18:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/li_Optional Fields' is clicked on
+
+02-08-2024T18:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62")): Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62")): Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62")): Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62")): Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62' is clicked on
+
+02-08-2024T18:29:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/button_Save")): Object: 'Object Repository/PIM Module/Configurations/button_Save' is clicked on
+
+02-08-2024T18:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/button_Save' is clicked on
+
+02-08-2024T18:29:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PIM Module/Configurations/p_Success")): Object: 'Object Repository/PIM Module/Configurations/p_Success' is clicked on
+
+02-08-2024T18:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PIM Module/Configurations/p_Success' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields" time="29.685" classname="Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at VerifyOptionalFields.run(VerifyOptionalFields:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[02-08-2024T18:31:28 - [TEST_CASE][FAILED] - Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields: Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyOptionalFields.run(VerifyOptionalFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-08-2024T18:31:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T18:31:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-08-2024T18:31:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T18:31:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T18:31:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T18:31:37 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:31:57 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T18:31:57 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/PIM Module/input_Password_oxd-input oxd-input--active"), "Admin"): Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyOptionalFields.run(VerifyOptionalFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1722236037514.run(Script1722236037514.groovy:24)
+	... 18 more
+)
+
+02-08-2024T18:31:57 - [MESSAGE][WARNING] - Test object with id 'Object Repository/PIM Module/input_Password_oxd-input oxd-input--active' does not exist
+
+02-08-2024T18:31:57 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+02-08-2024T18:31:58 - [MESSAGE][FAILED] - Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyOptionalFields.run(VerifyOptionalFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1722236037514.run(Script1722236037514.groovy:24)
+	... 18 more
+)
+[[ATTACHMENT|D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_181952\\PIMConfigurationsTestSuite\\20240802_181956\\1722603717453.png]]]]></system-out>
+         <system-err><![CDATA[02-08-2024T18:31:28 - [TEST_CASE][FAILED] - Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields: Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyOptionalFields.run(VerifyOptionalFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-08-2024T18:20:32 - [TEST_SUITE][FAILED] - PIMConfigurationsTestSuite: Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyAddingCustomFields.run(VerifyAddingCustomFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[02-08-2024T18:20:32 - [TEST_SUITE][FAILED] - PIMConfigurationsTestSuite: Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at VerifyAddingCustomFields.run(VerifyAddingCustomFields:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722602996661.run(TempTestSuite1722602996661.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

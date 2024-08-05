@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MyInfoQualifications,Chrome 127.0.0.0,,,02-08-2024 18:55:45,02-08-2024 19:04:43,8m - 58.334s,FAILED
+,,,,,,,
+Test Cases/MyInfo/Qualifications/VerifyAddingEducation,Chrome 127.0.0.0,,MyInfo,02-08-2024 18:59:15,02-08-2024 19:00:20,1m - 5.541s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 18:59:15,02-08-2024 18:59:18,3.268s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,02-08-2024 18:59:18,02-08-2024 18:59:29,11.495s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin123"")",Chrome 127.0.0.0,,,02-08-2024 18:59:29,02-08-2024 18:59:33,3.724s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""9NLz+4tGZcQ="")",Chrome 127.0.0.0,,,02-08-2024 18:59:33,02-08-2024 18:59:35,1.728s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 18:59:35,02-08-2024 18:59:37,2.453s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,02-08-2024 18:59:37,02-08-2024 18:59:39,1.647s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 18:59:39,02-08-2024 18:59:42,2.891s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/span_My Info""))",Chrome 127.0.0.0,,,02-08-2024 18:59:42,02-08-2024 19:00:20,38.289s,FAILED
+,,,,,,,
+Test Cases/MyInfo/Qualifications/VerifyAddingWorkExperience,Chrome 127.0.0.0,,MyInfo,02-08-2024 19:04:07,02-08-2024 19:04:43,36.082s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 19:04:07,02-08-2024 19:04:10,2.297s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,02-08-2024 19:04:10,02-08-2024 19:04:22,12.003s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 19:04:22,02-08-2024 19:04:25,3.488s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,02-08-2024 19:04:25,02-08-2024 19:04:27,1.935s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 19:04:27,02-08-2024 19:04:30,3.065s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_My Info""))",Chrome 127.0.0.0,,,02-08-2024 19:04:30,02-08-2024 19:04:34,3.580s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_Qualifications""))",Chrome 127.0.0.0,,,02-08-2024 19:04:34,02-08-2024 19:04:38,3.850s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Add""))",Chrome 127.0.0.0,,,02-08-2024 19:04:38,02-08-2024 19:04:43,5.826s,FAILED

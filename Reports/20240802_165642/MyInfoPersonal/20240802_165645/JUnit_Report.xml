@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyInfoPersonal" time="1073.284" tests="2" failures="2" errors="0">
+   <testsuite name="MyInfoPersonal" tests="2" failures="2" errors="0" time="1073.284" skipped="0" timestamp="02-08-2024T16:57:19" hostname="Jasmine - LAPTOP-E0HSAR0R" id="Test Suites/MyInfoPersonal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645"/>
+         <property name="logFiles" value="D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\execution0.log"/>
+         <property name="attachments" value="D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722598325814.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722598369550.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722598415429.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722598591828.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722598761828.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722598966477.png, D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722599112105.png"/>
+         <property name="hostName" value="Jasmine - LAPTOP-E0HSAR0R"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="62e9433e83e86d963fbc83601c143ee9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails" time="46.009" classname="Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to double click on object&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)&#xa;	at VerifyEditingContactDetails.run(VerifyEditingContactDetails:34)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[02-08-2024T17:02:50 - [TEST_CASE][FAILED] - Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails: Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to double click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at VerifyEditingContactDetails.run(VerifyEditingContactDetails:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-08-2024T17:02:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T17:02:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-08-2024T17:02:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T17:02:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T17:02:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T17:02:57 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T17:03:00 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T17:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/MyInfo/input_Username_username'
+
+02-08-2024T17:03:19 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/MyInfo/input_Username_username'
+
+02-08-2024T17:03:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/MyInfo/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/MyInfo/input_Password_password'
+
+02-08-2024T17:03:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/MyInfo/input_Password_password'
+
+02-08-2024T17:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/button_Login")): Object: 'Object Repository/MyInfo/button_Login' is clicked on
+
+02-08-2024T17:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/button_Login' is clicked on
+
+02-08-2024T17:03:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/span_My Info")): Object: 'Object Repository/MyInfo/span_My Info' is clicked on
+
+02-08-2024T17:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/span_My Info' is clicked on
+
+02-08-2024T17:03:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/a_Contact Details")): Object: 'Object Repository/MyInfo/a_Contact Details' is clicked on
+
+02-08-2024T17:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/a_Contact Details' is clicked on
+
+02-08-2024T17:03:35 - [TEST_STEP][FAILED] - doubleClick(findTestObject("Object Repository/MyInfo/input_Password_oxd-input oxd-input--active")): Unable to double click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to double click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at VerifyEditingContactDetails.run(VerifyEditingContactDetails:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at Script1722320732128.run(Script1722320732128.groovy:34)
+	... 18 more
+)
+
+02-08-2024T17:03:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/MyInfo/input_Password_oxd-input oxd-input--active' does not exist
+
+02-08-2024T17:03:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+02-08-2024T17:03:36 - [MESSAGE][FAILED] - Unable to double click on object (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to double click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at VerifyEditingContactDetails.run(VerifyEditingContactDetails:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at Script1722320732128.run(Script1722320732128.groovy:34)
+	... 18 more
+)
+[[ATTACHMENT|D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722598415429.png]]]]></system-out>
+         <system-err><![CDATA[02-08-2024T17:02:50 - [TEST_CASE][FAILED] - Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails: Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to double click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at VerifyEditingContactDetails.run(VerifyEditingContactDetails:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails" time="143.293" classname="Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MyInfo/p_Successfully Updated'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at VerifyEditingPersonalDetails.run(VerifyEditingPersonalDetails:82)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MyInfo/p_Successfully Updated' located by '//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[02-08-2024T17:12:49 - [TEST_CASE][FAILED] - Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails: Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MyInfo/p_Successfully Updated'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at VerifyEditingPersonalDetails.run(VerifyEditingPersonalDetails:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MyInfo/p_Successfully Updated' located by '//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+02-08-2024T17:12:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-08-2024T17:12:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+02-08-2024T17:12:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-08-2024T17:12:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-08-2024T17:12:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-08-2024T17:12:53 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T17:13:25 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+02-08-2024T17:13:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Username_username"), "Admin"): Text 'Admin' is set on object 'Object Repository/MyInfo/input_Username_username'
+
+02-08-2024T17:13:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/MyInfo/input_Username_username'
+
+02-08-2024T17:13:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/MyInfo/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/MyInfo/input_Password_password'
+
+02-08-2024T17:13:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/MyInfo/input_Password_password'
+
+02-08-2024T17:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/button_Login")): Object: 'Object Repository/MyInfo/button_Login' is clicked on
+
+02-08-2024T17:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/button_Login' is clicked on
+
+02-08-2024T17:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/a_My Info")): Object: 'Object Repository/MyInfo/a_My Info' is clicked on
+
+02-08-2024T17:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/a_My Info' is clicked on
+
+02-08-2024T17:13:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Full Name_firstName"), "mandaJohnJohn edited"): Text 'mandaJohnJohn edited' is set on object 'Object Repository/MyInfo/input_Employee Full Name_firstName'
+
+02-08-2024T17:13:57 - [MESSAGE][PASSED] - Text 'mandaJohnJohn edited' is set on object 'Object Repository/MyInfo/input_Employee Full Name_firstName'
+
+02-08-2024T17:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Full Name_middleName"), "akhil edited"): Text 'akhil edited' is set on object 'Object Repository/MyInfo/input_Employee Full Name_middleName'
+
+02-08-2024T17:13:59 - [MESSAGE][PASSED] - Text 'akhil edited' is set on object 'Object Repository/MyInfo/input_Employee Full Name_middleName'
+
+02-08-2024T17:13:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Full Name_lastName"), "userDoe edited"): Text 'userDoe edited' is set on object 'Object Repository/MyInfo/input_Employee Full Name_lastName'
+
+02-08-2024T17:14:01 - [MESSAGE][PASSED] - Text 'userDoe edited' is set on object 'Object Repository/MyInfo/input_Employee Full Name_lastName'
+
+02-08-2024T17:14:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active"), "muser"): Text 'muser' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active'
+
+02-08-2024T17:14:03 - [MESSAGE][PASSED] - Text 'muser' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active'
+
+02-08-2024T17:14:03 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus")): Object: 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus' is double clicked on
+
+02-08-2024T17:14:04 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus' is double clicked on
+
+02-08-2024T17:14:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus"), "1067442"): Text '1067442' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:06 - [MESSAGE][PASSED] - Text '1067442' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active"), "4957589"): Text '4957589' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active'
+
+02-08-2024T17:14:08 - [MESSAGE][PASSED] - Text '4957589' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active'
+
+02-08-2024T17:14:08 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus")): Object: 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus' is double clicked on
+
+02-08-2024T17:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus' is double clicked on
+
+02-08-2024T17:14:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus"), "65497"): Text '65497' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:11 - [MESSAGE][PASSED] - Text '65497' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active"), "56788"): Text '56788' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active'
+
+02-08-2024T17:14:13 - [MESSAGE][PASSED] - Text '56788' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active'
+
+02-08-2024T17:14:13 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus")): Object: 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus' is double clicked on
+
+02-08-2024T17:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus' is double clicked on
+
+02-08-2024T17:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus"), "983982778216e"): Text '983982778216e' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:16 - [MESSAGE][PASSED] - Text '983982778216e' is set on object 'Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8")): Object: 'Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8' is clicked on
+
+02-08-2024T17:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8' is clicked on
+
+02-08-2024T17:14:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-chevron-right")): Object: 'Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-chevron-right' is clicked on
+
+02-08-2024T17:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-chevron-right' is clicked on
+
+02-08-2024T17:14:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/div_30")): Object: 'Object Repository/MyInfo/div_30' is clicked on
+
+02-08-2024T17:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/div_30' is clicked on
+
+02-08-2024T17:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220")): Object: 'Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220' is clicked on
+
+02-08-2024T17:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220' is clicked on
+
+02-08-2024T17:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220")): Object: 'Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220' is clicked on
+
+02-08-2024T17:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220' is clicked on
+
+02-08-2024T17:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/span_Female_oxd-radio-input oxd-radio-input_59a84c")): Object: 'Object Repository/MyInfo/span_Female_oxd-radio-input oxd-radio-input_59a84c' is clicked on
+
+02-08-2024T17:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/span_Female_oxd-radio-input oxd-radio-input_59a84c' is clicked on
+
+02-08-2024T17:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8")): Object: 'Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8' is clicked on
+
+02-08-2024T17:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8' is clicked on
+
+02-08-2024T17:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/i_Date of Birth_oxd-icon bi-caret-down-fill_d48360")): Object: 'Object Repository/MyInfo/i_Date of Birth_oxd-icon bi-caret-down-fill_d48360' is clicked on
+
+02-08-2024T17:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/i_Date of Birth_oxd-icon bi-caret-down-fill_d48360' is clicked on
+
+02-08-2024T17:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/li_1979")): Object: 'Object Repository/MyInfo/li_1979' is clicked on
+
+02-08-2024T17:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/li_1979' is clicked on
+
+02-08-2024T17:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/div_31")): Object: 'Object Repository/MyInfo/div_31' is clicked on
+
+02-08-2024T17:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/div_31' is clicked on
+
+02-08-2024T17:14:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/i_A_oxd-icon bi-caret-up-fill oxd-select-te_692938")): Object: 'Object Repository/MyInfo/i_A_oxd-icon bi-caret-up-fill oxd-select-te_692938' is clicked on
+
+02-08-2024T17:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/i_A_oxd-icon bi-caret-up-fill oxd-select-te_692938' is clicked on
+
+02-08-2024T17:14:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MyInfo/input_Test_Field_oxd-input oxd-input--focus"), "445eee"): Text '445eee' is set on object 'Object Repository/MyInfo/input_Test_Field_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:32 - [MESSAGE][PASSED] - Text '445eee' is set on object 'Object Repository/MyInfo/input_Test_Field_oxd-input oxd-input--focus'
+
+02-08-2024T17:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyInfo/button_Save")): Object: 'Object Repository/MyInfo/button_Save' is clicked on
+
+02-08-2024T17:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/MyInfo/button_Save' is clicked on
+
+02-08-2024T17:14:33 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/MyInfo/p_Successfully Updated")): Unable to click on object 'Object Repository/MyInfo/p_Successfully Updated' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MyInfo/p_Successfully Updated'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at VerifyEditingPersonalDetails.run(VerifyEditingPersonalDetails:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MyInfo/p_Successfully Updated' located by '//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1722317731054.run(Script1722317731054.groovy:82)
+	... 18 more
+)
+
+02-08-2024T17:15:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='oxd-toaster_1']/div/div/div[2]/p[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-08-2024T17:15:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/MyInfo/p_Successfully Updated'. Try using Self-healing.
+
+02-08-2024T17:15:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]'.
+
+02-08-2024T17:15:05 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/following::p[2]'.
+
+02-08-2024T17:15:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::p[1]'.
+
+02-08-2024T17:15:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Successfully Updated']/parent::*'.
+
+02-08-2024T17:15:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/p[2]'.
+
+02-08-2024T17:15:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//p[(text() = 'Successfully Updated' or . = 'Successfully Updated')]'.
+
+02-08-2024T17:15:08 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::p[4]'.
+
+02-08-2024T17:15:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Successfully Updated' or . = 'Successfully Updated')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-08-2024T17:15:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: p.oxd-text.oxd-text--p.oxd-text--toast-message.oxd-toast-content-text'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-08-2024T17:15:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/MyInfo/p_Successfully Updated' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MyInfo/p_Successfully Updated'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at VerifyEditingPersonalDetails.run(VerifyEditingPersonalDetails:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MyInfo/p_Successfully Updated' located by '//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1722317731054.run(Script1722317731054.groovy:82)
+	... 18 more
+)
+[[ATTACHMENT|D:\\KatalonTraining\\CertificationProject\\OrangeHRMS\\OrangeHRMS\\OrangeHRMS\\Reports\\20240802_165642\\MyInfoPersonal\\20240802_165645\\1722599112105.png]]]]></system-out>
+         <system-err><![CDATA[02-08-2024T17:12:49 - [TEST_CASE][FAILED] - Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails: Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/MyInfo/p_Successfully Updated'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at VerifyEditingPersonalDetails.run(VerifyEditingPersonalDetails:82)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/MyInfo/p_Successfully Updated' located by '//div[@id='oxd-toaster_1']/div/div/div[2]/p[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-08-2024T16:57:19 - [TEST_SUITE][FAILED] - MyInfoPersonal: Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to double click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at VerifyEditingContactDetails.run(VerifyEditingContactDetails:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[02-08-2024T16:57:19 - [TEST_SUITE][FAILED] - MyInfoPersonal: Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to double click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.doubleClick(DoubleClickKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword.execute(DoubleClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.doubleClick(WebUiBuiltInKeywords.groovy:766)
+	at VerifyEditingContactDetails.run(VerifyEditingContactDetails:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1722598005653.run(TempTestSuite1722598005653.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.doCall(DoubleClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.DoubleClickKeyword$_doubleClick_closure1.call(DoubleClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

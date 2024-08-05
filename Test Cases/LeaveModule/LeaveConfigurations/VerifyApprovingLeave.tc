@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyApprovingLeave</name>
+   <tag>Leave</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>522a24aa-b8e7-4c16-ad67-7c029f95e648</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminPage/AddUser/UserTypeDropDownInAddPage",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[3]/div/div[2]/div/div/div[2]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240805_122751/AdminPanelTestSuite/20240805_122753/Object Repository/AdminPage/AddUser/UserTypeDropDownInAddPage_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminPage/AddUser/input_Password_oxd-input oxd-input--active",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240805_122751/AdminPanelTestSuite/20240805_122753/Object Repository/AdminPage/AddUser/input_Password_oxd-input oxd-input--active_position.png"
+    }
+  ]
+}

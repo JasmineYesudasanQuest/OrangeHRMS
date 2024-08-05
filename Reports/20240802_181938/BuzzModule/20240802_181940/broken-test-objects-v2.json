@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/button_Yes, Delete",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[25]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027app\u0027]/div[3]/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240802_181938/BuzzModule/20240802_181940/Object Repository/BuzzModule/button_Yes, Delete_idRelative.png"
+    }
+  ]
+}

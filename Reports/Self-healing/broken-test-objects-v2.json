@@ -29,6 +29,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminPage/AddUser/UserTypeDropDownInAddPage",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div[3]/div/div[2]/div/div/div[2]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminPage/AddUser/UserTypeDropDownInAddPage_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminPage/AddUser/input_Password_oxd-input oxd-input--active",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminPage/AddUser/input_Password_oxd-input oxd-input--active_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginPage/UserNameField",
+      "brokenLocator": "//input[@name\u003d\u0027username\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027username\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LoginPage/UserNameField_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div[2]/div/div[2]/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016_position.png"
     }
   ]
 }

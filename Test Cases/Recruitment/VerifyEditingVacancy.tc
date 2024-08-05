@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyEditingVacancy</name>
+   <tag>Recruitment</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2386791a-709d-4120-84e3-1cf78bf41d55</testCaseGuid>
+</TestCaseEntity>

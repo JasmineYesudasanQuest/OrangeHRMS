@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MyInfoPersonal,Chrome 127.0.0.0,,,02-08-2024 16:57:19,02-08-2024 17:15:12,17m - 53.284s,FAILED
+,,,,,,,
+Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails,Chrome 127.0.0.0,,MyInfo,02-08-2024 17:02:50,02-08-2024 17:03:36,46.009s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 17:02:50,02-08-2024 17:02:57,6.555s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,02-08-2024 17:02:57,02-08-2024 17:03:00,3.342s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 17:03:00,02-08-2024 17:03:19,18.806s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,02-08-2024 17:03:19,02-08-2024 17:03:20,1.391s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 17:03:20,02-08-2024 17:03:24,3.602s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/span_My Info""))",Chrome 127.0.0.0,,,02-08-2024 17:03:24,02-08-2024 17:03:30,6.252s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_Contact Details""))",Chrome 127.0.0.0,,,02-08-2024 17:03:30,02-08-2024 17:03:35,5.000s,PASSED
+"doubleClick(findTestObject(""Object Repository/MyInfo/input_Password_oxd-input oxd-input--active""))",Chrome 127.0.0.0,,,02-08-2024 17:03:35,02-08-2024 17:03:36,0.961s,FAILED
+,,,,,,,
+Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails,Chrome 127.0.0.0,Verify editing personal details,MyInfo,02-08-2024 17:12:49,02-08-2024 17:15:12,2m - 23.293s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 17:12:49,02-08-2024 17:12:53,4.214s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,02-08-2024 17:12:53,02-08-2024 17:13:25,31.675s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 17:13:25,02-08-2024 17:13:28,3.208s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,02-08-2024 17:13:28,02-08-2024 17:13:29,1.277s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 17:13:29,02-08-2024 17:13:42,12.371s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_My Info""))",Chrome 127.0.0.0,,,02-08-2024 17:13:42,02-08-2024 17:13:53,11.803s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Full Name_firstName""), ""mandaJohnJohn edited"")",Chrome 127.0.0.0,,,02-08-2024 17:13:53,02-08-2024 17:13:57,3.908s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Full Name_middleName""), ""akhil edited"")",Chrome 127.0.0.0,,,02-08-2024 17:13:57,02-08-2024 17:13:59,1.816s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Full Name_lastName""), ""userDoe edited"")",Chrome 127.0.0.0,,,02-08-2024 17:13:59,02-08-2024 17:14:01,1.867s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active""), ""muser"")",Chrome 127.0.0.0,,,02-08-2024 17:14:01,02-08-2024 17:14:03,1.904s,PASSED
+"doubleClick(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus""))",Chrome 127.0.0.0,,,02-08-2024 17:14:03,02-08-2024 17:14:04,0.983s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus""), ""1067442"")",Chrome 127.0.0.0,,,02-08-2024 17:14:04,02-08-2024 17:14:06,2.146s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active""), ""4957589"")",Chrome 127.0.0.0,,,02-08-2024 17:14:06,02-08-2024 17:14:08,2.501s,PASSED
+"doubleClick(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus""))",Chrome 127.0.0.0,,,02-08-2024 17:14:08,02-08-2024 17:14:09,0.856s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus""), ""65497"")",Chrome 127.0.0.0,,,02-08-2024 17:14:09,02-08-2024 17:14:11,1.992s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--active""), ""56788"")",Chrome 127.0.0.0,,,02-08-2024 17:14:11,02-08-2024 17:14:13,1.909s,PASSED
+"doubleClick(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus""))",Chrome 127.0.0.0,,,02-08-2024 17:14:13,02-08-2024 17:14:14,0.863s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Employee Id_oxd-input oxd-input--focus""), ""983982778216e"")",Chrome 127.0.0.0,,,02-08-2024 17:14:14,02-08-2024 17:14:16,2.034s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8""))",Chrome 127.0.0.0,,,02-08-2024 17:14:16,02-08-2024 17:14:17,0.806s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-chevron-right""))",Chrome 127.0.0.0,,,02-08-2024 17:14:17,02-08-2024 17:14:18,0.940s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/div_30""))",Chrome 127.0.0.0,,,02-08-2024 17:14:18,02-08-2024 17:14:19,1.027s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220""))",Chrome 127.0.0.0,,,02-08-2024 17:14:19,02-08-2024 17:14:20,0.986s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/i_American_oxd-icon bi-caret-up-fill oxd-se_bc7220""))",Chrome 127.0.0.0,,,02-08-2024 17:14:20,02-08-2024 17:14:21,0.801s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/span_Female_oxd-radio-input oxd-radio-input_59a84c""))",Chrome 127.0.0.0,,,02-08-2024 17:14:21,02-08-2024 17:14:22,0.997s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/i_License Expiry Date_oxd-icon bi-calendar _fa83c8""))",Chrome 127.0.0.0,,,02-08-2024 17:14:22,02-08-2024 17:14:23,0.825s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/i_Date of Birth_oxd-icon bi-caret-down-fill_d48360""))",Chrome 127.0.0.0,,,02-08-2024 17:14:23,02-08-2024 17:14:24,1.091s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/li_1979""))",Chrome 127.0.0.0,,,02-08-2024 17:14:24,02-08-2024 17:14:25,1.447s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/div_31""))",Chrome 127.0.0.0,,,02-08-2024 17:14:25,02-08-2024 17:14:29,3.576s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/i_A_oxd-icon bi-caret-up-fill oxd-select-te_692938""))",Chrome 127.0.0.0,,,02-08-2024 17:14:29,02-08-2024 17:14:30,1.095s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Test_Field_oxd-input oxd-input--focus""), ""445eee"")",Chrome 127.0.0.0,,,02-08-2024 17:14:30,02-08-2024 17:14:32,2.051s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Save""))",Chrome 127.0.0.0,,,02-08-2024 17:14:32,02-08-2024 17:14:33,1.024s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/p_Successfully Updated""))",Chrome 127.0.0.0,,,02-08-2024 17:14:33,02-08-2024 17:15:12,39.101s,FAILED

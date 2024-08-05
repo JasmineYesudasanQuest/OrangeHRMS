@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyMultiDeleteCandidates</name>
+   <tag>Recruitment</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd32e722-db91-437a-982a-b3703b85e1c2</testCaseGuid>
+</TestCaseEntity>

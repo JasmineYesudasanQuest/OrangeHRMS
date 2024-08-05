@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BuzzModule,Chrome 127.0.0.0,,,02-08-2024 16:56:41,02-08-2024 17:18:44,22m - 2.587s,FAILED
+,,,,,,,
+Test Cases/BuzzModule/NewPosts/VerifyAddingANewPost,Chrome 127.0.0.0,,Buzz,02-08-2024 17:05:19,02-08-2024 17:07:08,1m - 49.079s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 17:05:19,02-08-2024 17:05:36,17.189s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,02-08-2024 17:05:36,02-08-2024 17:05:38,2.326s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 17:05:38,02-08-2024 17:05:53,14.915s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""RAIVpflpDOg="")",Chrome 127.0.0.0,,,02-08-2024 17:05:53,02-08-2024 17:05:55,1.763s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 17:05:55,02-08-2024 17:05:59,3.912s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 17:05:59,02-08-2024 17:06:02,2.936s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,02-08-2024 17:06:02,02-08-2024 17:06:04,1.864s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 17:06:04,02-08-2024 17:06:07,3.350s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/a_Buzz""))",Chrome 127.0.0.0,,,02-08-2024 17:06:07,02-08-2024 17:06:17,9.943s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input""), ""gyug"")",Chrome 127.0.0.0,,,02-08-2024 17:06:17,02-08-2024 17:06:29,11.882s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Post""))",Chrome 127.0.0.0,,,02-08-2024 17:06:29,02-08-2024 17:06:31,2.104s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/div_SuccessSuccessfully Saved""))",Chrome 127.0.0.0,,,02-08-2024 17:06:31,02-08-2024 17:07:08,36.818s,FAILED
+,,,,,,,
+Test Cases/BuzzModule/NewPosts/VerifyDeletingANewlyAddedPost,Chrome 127.0.0.0,,Buzz,02-08-2024 17:11:20,02-08-2024 17:12:26,1m - 5.828s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 17:11:20,02-08-2024 17:11:26,5.621s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,02-08-2024 17:11:26,02-08-2024 17:11:33,7.541s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 17:11:33,02-08-2024 17:11:37,3.824s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,02-08-2024 17:11:37,02-08-2024 17:11:39,1.910s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 17:11:39,02-08-2024 17:11:43,3.422s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/span_Buzz""))",Chrome 127.0.0.0,,,02-08-2024 17:11:43,02-08-2024 17:11:48,4.922s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots""))",Chrome 127.0.0.0,,,02-08-2024 17:11:48,02-08-2024 17:11:50,2.693s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/p_Delete Post""))",Chrome 127.0.0.0,,,02-08-2024 17:11:50,02-08-2024 17:11:52,1.339s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Yes, Delete""))",Chrome 127.0.0.0,,,02-08-2024 17:11:52,02-08-2024 17:12:26,34.490s,FAILED
+,,,,,,,
+Test Cases/BuzzModule/NewPosts/VerifyEditingNewlyAddedPost,Chrome 127.0.0.0,,Buzz,02-08-2024 17:17:12,02-08-2024 17:18:44,1m - 31.477s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,02-08-2024 17:17:12,02-08-2024 17:17:16,3.234s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,02-08-2024 17:17:16,02-08-2024 17:17:22,6.362s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,02-08-2024 17:17:22,02-08-2024 17:17:25,3.153s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,02-08-2024 17:17:25,02-08-2024 17:17:27,1.450s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Chrome 127.0.0.0,,,02-08-2024 17:17:27,02-08-2024 17:17:30,3.108s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/span_Buzz""))",Chrome 127.0.0.0,,,02-08-2024 17:17:30,02-08-2024 17:17:34,4.573s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots""))",Chrome 127.0.0.0,,,02-08-2024 17:17:34,02-08-2024 17:17:37,2.927s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/html_OrangeHRM                  katalonfont_8f13ef""))",Chrome 127.0.0.0,,,02-08-2024 17:17:37,02-08-2024 17:17:38,0.989s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots""))",Chrome 127.0.0.0,,,02-08-2024 17:17:38,02-08-2024 17:18:44,1m - 5.620s,FAILED

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/div/div[3]/div/div/div/div/div[2]/li/button/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240802_165621/BuzzModule/20240802_165623/Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots_position.png"
+    }
+  ]
+}

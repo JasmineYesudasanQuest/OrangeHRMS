@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyDeletingACandidate</name>
+   <tag>Recruitment</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f564b466-d370-4e96-8b24-a634791bc3d3</testCaseGuid>
+</TestCaseEntity>
