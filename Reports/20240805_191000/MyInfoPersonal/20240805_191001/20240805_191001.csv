@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MyInfoPersonal,Chrome 127.0.0.0,,,05-08-2024 19:10:38,05-08-2024 19:51:50,41m - 11.785s,FAILED
+,,,,,,,
+Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingContactDetails,Chrome 127.0.0.0,,MyInfo,05-08-2024 19:14:19,05-08-2024 19:15:14,55.356s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,05-08-2024 19:14:19,05-08-2024 19:14:35,16.228s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,05-08-2024 19:14:35,05-08-2024 19:14:37,2.133s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,05-08-2024 19:14:37,05-08-2024 19:14:48,11.117s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,05-08-2024 19:14:48,05-08-2024 19:14:50,2.140s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,05-08-2024 19:14:50,05-08-2024 19:14:56,5.988s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/span_My Info""))",Chrome 127.0.0.0,,,05-08-2024 19:14:56,05-08-2024 19:15:08,11.191s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_Contact Details""))",Chrome 127.0.0.0,,,05-08-2024 19:15:08,05-08-2024 19:15:13,5.868s,PASSED
+"doubleClick(findTestObject(""Object Repository/MyInfo/input_Password_oxd-input oxd-input--active""))",Chrome 127.0.0.0,,,05-08-2024 19:15:13,05-08-2024 19:15:14,0.556s,FAILED
+,,,,,,,
+Test Cases/MyInfo/PersonalAnsContactInfo/VerifyEditingPersonalDetails,Chrome 127.0.0.0,Verify editing personal details,MyInfo,05-08-2024 19:51:26,05-08-2024 19:51:50,24.057s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,05-08-2024 19:51:26,05-08-2024 19:51:28,2.645s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,05-08-2024 19:51:28,05-08-2024 19:51:50,21.369s,FAILED
