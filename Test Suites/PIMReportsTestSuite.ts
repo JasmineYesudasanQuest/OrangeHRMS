@@ -17,6 +17,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PIMModule/PIMReports/VerifyAddingANewReport</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b8e87e9-398c-4aba-9d4a-cfff07127164</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0861fe0f-1f88-439b-b03d-d1439ad0ddb8</guid>

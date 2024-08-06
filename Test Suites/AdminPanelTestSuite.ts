@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/AdminPanelTests/VerifyAddingANewNationality</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c56f16a-7af8-46eb-89d0-60c38a5ce48b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d8d914c-a167-4c96-a970-85bfc6bf671d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>686145ee-0809-4456-b734-334dfc8bbb11</guid>
