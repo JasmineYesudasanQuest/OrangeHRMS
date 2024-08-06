@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/PIM Module/a_Reports'))
 
 WebUI.click(findTestObject('Object Repository/PIM Module/UserTypeDropDownInAddPage'))
 
-WebUI.setText(findTestObject('Object Repository/PIM Module/input_Password_oxd-input oxd-input--active'), 'Test Repot')
+WebUI.setText(findTestObject('Object Repository/PIM Module/input_Password_oxd-input oxd-input--active'), 'Test Report')
 
 WebUI.click(findTestObject('Object Repository/PIM Module/UserTypeDropDownInAddPage'))
 
