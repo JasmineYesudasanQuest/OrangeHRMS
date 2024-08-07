@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Recruitment/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/BuzzModule/input_Username_username'), 'Admin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Recruitment/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Object Repository/Recruitment/i_-- Select --_oxd-ico
 WebUI.setText(findTestObject('Object Repository/Recruitment/textarea_Description_oxd-textarea oxd-texta_fed1e5'), 'test')
 
 WebUI.setText(findTestObject('Object Repository/Recruitment/input_Password_oxd-input oxd-input--active'), 'test')
+
+WebUI.setText(findTestObject('Object Repository/Recruitment/input_Username_username'), 'Admin')
 
 WebUI.setText(findTestObject('Object Repository/Recruitment/input_Number of Positions_oxd-input oxd-inp_b37faf'), '4')
 
