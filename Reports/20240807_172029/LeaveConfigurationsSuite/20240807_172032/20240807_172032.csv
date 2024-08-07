@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LeaveConfigurationsSuite,,,,07-08-2024 17:20:46,07-08-2024 17:21:26,39.350s,FAILED
+,,,,,,,
+Test Cases/LeaveModule/LeaveConfigurations/VerifyAddingNewLeave,,,Leave,07-08-2024 17:20:58,07-08-2024 17:21:00,2.048s,FAILED
+"openBrowser("""")",,,,07-08-2024 17:20:58,07-08-2024 17:21:00,1.956s,FAILED
+,,,,,,,
+Test Cases/LeaveModule/LeaveConfigurations/VerifyAddingNewLeaveType,,,Leave,07-08-2024 17:21:06,07-08-2024 17:21:08,1.870s,FAILED
+"openBrowser("""")",,,,07-08-2024 17:21:06,07-08-2024 17:21:08,1.809s,FAILED
+,,,,,,,
+Test Cases/LeaveModule/LeaveConfigurations/VerifyConfiguringWorkingdays,,,Leaves,07-08-2024 17:21:15,07-08-2024 17:21:17,2.261s,FAILED
+"openBrowser("""")",,,,07-08-2024 17:21:15,07-08-2024 17:21:17,2.224s,FAILED
+,,,,,,,
+Test Cases/LeaveModule/LeaveConfigurations/VerifyLeavePeriodConfigurations,,,Leave,07-08-2024 17:21:24,07-08-2024 17:21:26,1.409s,FAILED
+"openBrowser("""")",,,,07-08-2024 17:21:24,07-08-2024 17:21:26,1.372s,FAILED

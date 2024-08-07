@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PersonalLeavesSuite,Chrome 127.0.0.0,,,07-08-2024 17:20:44,07-08-2024 17:28:02,7m - 17.553s,FAILED
+,,,,,,,
+Test Cases/LeaveModule/PersonalLeaves/VerifyApplyingLeave,Chrome 127.0.0.0,,Leave,07-08-2024 17:23:46,07-08-2024 17:24:34,48.492s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,07-08-2024 17:23:46,07-08-2024 17:23:48,1.926s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,07-08-2024 17:23:48,07-08-2024 17:23:52,4.265s,PASSED
+"setText(findTestObject(""Object Repository/Leave/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,07-08-2024 17:23:52,07-08-2024 17:23:53,1.344s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Leave/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,07-08-2024 17:23:53,07-08-2024 17:23:54,0.380s,PASSED
+"click(findTestObject(""Object Repository/Leave/button_Login""))",Chrome 127.0.0.0,,,07-08-2024 17:23:54,07-08-2024 17:23:54,0.320s,PASSED
+"click(findTestObject(""Object Repository/Leave/a_Leave""))",Chrome 127.0.0.0,,,07-08-2024 17:23:54,07-08-2024 17:23:58,3.676s,PASSED
+"click(findTestObject(""Object Repository/Leave/a_Apply""))",Chrome 127.0.0.0,,,07-08-2024 17:23:58,07-08-2024 17:23:59,1.454s,PASSED
+"click(findTestObject(""Object Repository/Leave/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec""))",Chrome 127.0.0.0,,,07-08-2024 17:23:59,07-08-2024 17:24:01,1.583s,PASSED
+"click(findTestObject(""Object Repository/Leave/i_From Date_oxd-icon bi-calendar oxd-date-i_f3a9ef""))",Chrome 127.0.0.0,,,07-08-2024 17:24:01,07-08-2024 17:24:34,33.486s,FAILED
+,,,,,,,
+Test Cases/LeaveModule/PersonalLeaves/VerifyingCancellingLeave,Chrome 127.0.0.0,,Leave,07-08-2024 17:27:10,07-08-2024 17:28:02,52.141s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,07-08-2024 17:27:10,07-08-2024 17:27:11,1.408s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,07-08-2024 17:27:11,07-08-2024 17:27:16,4.704s,PASSED
+"setText(findTestObject(""Object Repository/Leave/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,07-08-2024 17:27:16,07-08-2024 17:27:18,1.656s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Leave/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,07-08-2024 17:27:18,07-08-2024 17:27:18,0.622s,PASSED
+"click(findTestObject(""Object Repository/Leave/button_Login""))",Chrome 127.0.0.0,,,07-08-2024 17:27:18,07-08-2024 17:27:20,1.956s,PASSED
+"click(findTestObject(""Object Repository/Leave/span_Leave""))",Chrome 127.0.0.0,,,07-08-2024 17:27:20,07-08-2024 17:27:23,2.748s,PASSED
+"click(findTestObject(""Object Repository/Leave/a_My Leave""))",Chrome 127.0.0.0,,,07-08-2024 17:27:23,07-08-2024 17:27:25,1.575s,PASSED
+"click(findTestObject(""Object Repository/Leave/button_Cancel""))",Chrome 127.0.0.0,,,07-08-2024 17:27:25,07-08-2024 17:28:02,37.451s,FAILED

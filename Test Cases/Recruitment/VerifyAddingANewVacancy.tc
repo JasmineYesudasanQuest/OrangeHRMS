@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>c16ce6eb-bf97-4889-9f77-c3fad0f4eb3b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c98e72b-58fe-42ce-bc7f-c63763a869d7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>662c4866-78a2-4639-ab9a-f82574a4e7ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ijiji'</defaultValue>
+      <description></description>
+      <id>7c98e72b-58fe-42ce-bc7f-c63763a869d7</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>662c4866-78a2-4639-ab9a-f82574a4e7ca</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
 </TestCaseEntity>
