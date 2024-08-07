@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>25ff07d8-2ae6-4078-a0a1-0b3dcdea576f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a025294-edf5-4355-aedd-5a4405280902</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4911b14b-8882-4a94-8aa4-5fd70f256d85</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'mxc jcxv'</defaultValue>
+      <description></description>
+      <id>9a025294-edf5-4355-aedd-5a4405280902</id>
+      <masked>false</masked>
+      <name>CandidateName</name>
+   </variable>
+   <variable>
+      <defaultValue>34</defaultValue>
+      <description></description>
+      <id>4911b14b-8882-4a94-8aa4-5fd70f256d85</id>
+      <masked>false</masked>
+      <name>Age</name>
+   </variable>
 </TestCaseEntity>

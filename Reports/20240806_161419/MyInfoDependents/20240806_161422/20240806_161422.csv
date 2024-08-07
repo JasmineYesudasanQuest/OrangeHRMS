@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MyInfoDependents,Chrome 127.0.0.0,,,06-08-2024 16:23:14,06-08-2024 16:33:41,10m - 27.822s,FAILED
+,,,,,,,
+Test Cases/MyInfo/Dependents/VerifyAddingDependents,Chrome 127.0.0.0,,,06-08-2024 16:24:39,06-08-2024 16:25:01,22.168s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 16:24:39,06-08-2024 16:24:42,3.139s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 16:24:42,06-08-2024 16:24:48,6.685s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 16:24:48,06-08-2024 16:24:51,2.460s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 16:24:51,06-08-2024 16:24:52,1.322s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,06-08-2024 16:24:52,06-08-2024 16:24:54,2.055s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/span_My Info""))",Chrome 127.0.0.0,,,06-08-2024 16:24:54,06-08-2024 16:24:57,2.402s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_Dependents""))",Chrome 127.0.0.0,,,06-08-2024 16:24:57,06-08-2024 16:24:59,2.070s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Add""))",Chrome 127.0.0.0,,,06-08-2024 16:24:59,06-08-2024 16:25:01,1.741s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Password_oxd-input oxd-input--active""), ""jdksfhjdsfh"")",Chrome 127.0.0.0,,,06-08-2024 16:25:01,06-08-2024 16:25:01,0.266s,FAILED
+,,,,,,,
+Test Cases/MyInfo/Dependents/VerifyDeletingDependent,Chrome 127.0.0.0,,MyInfo,06-08-2024 16:31:26,06-08-2024 16:31:52,26.227s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 16:31:26,06-08-2024 16:31:29,3.226s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 16:31:29,06-08-2024 16:31:41,11.102s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 16:31:41,06-08-2024 16:31:43,2.125s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 16:31:43,06-08-2024 16:31:44,0.923s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,06-08-2024 16:31:44,06-08-2024 16:31:46,2.089s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_My Info""))",Chrome 127.0.0.0,,,06-08-2024 16:31:46,06-08-2024 16:31:49,3.049s,PASSED
+"doubleClick(findTestObject(""Object Repository/MyInfo/a_Dependents""))",Chrome 127.0.0.0,,,06-08-2024 16:31:49,06-08-2024 16:31:52,3.419s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/UserTypeDropDownInAddPage""))",Chrome 127.0.0.0,,,06-08-2024 16:31:52,06-08-2024 16:31:52,0.269s,FAILED
+,,,,,,,
+Test Cases/MyInfo/Dependents/VerifyEditingDependents,Chrome 127.0.0.0,,MyInfo,06-08-2024 16:33:17,06-08-2024 16:33:41,24.221s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 16:33:17,06-08-2024 16:33:20,2.722s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 16:33:20,06-08-2024 16:33:30,9.688s,PASSED
+"setText(findTestObject(""Object Repository/MyInfo/input_Username_username""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 16:33:30,06-08-2024 16:33:32,2.387s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/MyInfo/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 16:33:32,06-08-2024 16:33:34,1.595s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/button_Login""))",Chrome 127.0.0.0,,,06-08-2024 16:33:34,06-08-2024 16:33:36,2.183s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_My Info""))",Chrome 127.0.0.0,,,06-08-2024 16:33:36,06-08-2024 16:33:38,2.672s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/a_Dependents""))",Chrome 127.0.0.0,,,06-08-2024 16:33:38,06-08-2024 16:33:41,2.749s,PASSED
+"click(findTestObject(""Object Repository/MyInfo/UserTypeDropDownInAddPage""))",Chrome 127.0.0.0,,,06-08-2024 16:33:41,06-08-2024 16:33:41,0.201s,FAILED

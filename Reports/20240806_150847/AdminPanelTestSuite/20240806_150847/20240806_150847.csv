@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AdminPanelTestSuite,Chrome 127.0.0.0,Test cases related to admin page,,06-08-2024 15:08:56,06-08-2024 15:21:41,12m - 44.802s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyAddingANewNationality,Chrome 127.0.0.0,Add a new natalionality and verify,Admin,06-08-2024 15:11:58,06-08-2024 15:12:56,57.344s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 15:11:58,06-08-2024 15:12:02,3.532s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 15:12:02,06-08-2024 15:12:22,19.810s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 15:12:22,06-08-2024 15:12:25,3.656s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 15:12:25,06-08-2024 15:12:28,2.522s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",Chrome 127.0.0.0,,,06-08-2024 15:12:28,06-08-2024 15:12:31,3.048s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",Chrome 127.0.0.0,,,06-08-2024 15:12:31,06-08-2024 15:12:34,3.371s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalitiesLink""))",Chrome 127.0.0.0,,,06-08-2024 15:12:34,06-08-2024 15:12:37,2.890s,PASSED
+"click(findTestObject(""Object Repository/Nationality/AddNationalityButton""))",Chrome 127.0.0.0,,,06-08-2024 15:12:37,06-08-2024 15:12:40,2.600s,PASSED
+"setText(findTestObject(""Nationality/NationalityCheckBox""), ""aaaaa"")",Chrome 127.0.0.0,,,06-08-2024 15:12:40,06-08-2024 15:12:48,8.542s,PASSED
+"click(findTestObject(""Object Repository/Nationality/SaveNationalityButton""))",Chrome 127.0.0.0,,,06-08-2024 15:12:48,06-08-2024 15:12:51,2.905s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Nationality/SuccessMessage""), ""Succesfully Saved"")",Chrome 127.0.0.0,,,06-08-2024 15:12:51,06-08-2024 15:12:56,4.392s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyAddingANewUser,Chrome 127.0.0.0,Verify adding a new user,Admin,06-08-2024 15:12:56,06-08-2024 15:13:53,57.281s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 15:12:56,06-08-2024 15:13:00,3.410s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 15:13:00,06-08-2024 15:13:02,2.263s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 15:13:02,06-08-2024 15:13:22,20.434s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 15:13:22,06-08-2024 15:13:24,1.279s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",Chrome 127.0.0.0,,,06-08-2024 15:13:24,06-08-2024 15:13:26,2.353s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",Chrome 127.0.0.0,,,06-08-2024 15:13:26,06-08-2024 15:13:29,3.019s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/AddUserButton""))",Chrome 127.0.0.0,,,06-08-2024 15:13:29,06-08-2024 15:13:31,2.238s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/UserTypeDropDownInAddPage""))",Chrome 127.0.0.0,,,06-08-2024 15:13:31,06-08-2024 15:13:33,2.300s,PASSED
+"setText(findTestObject(""Object Repository/AdminPage/AddUser/UserHintTextBox""), ""a"")",Chrome 127.0.0.0,,,06-08-2024 15:13:33,06-08-2024 15:13:39,5.858s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/UserHintOption""))",Chrome 127.0.0.0,,,06-08-2024 15:13:39,06-08-2024 15:13:43,3.764s,PASSED
+"setText(findTestObject(""Object Repository/AdminPage/AddUser/input_Username_oxd-input oxd-input--focus""), ""Jas12345"")",Chrome 127.0.0.0,,,06-08-2024 15:13:43,06-08-2024 15:13:47,4.074s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/AdminPage/AddUser/input_Password_oxd-input oxd-input--active""), ""PJhMHmON9HDHgTfDu48tsA=="")",Chrome 127.0.0.0,,,06-08-2024 15:13:47,06-08-2024 15:13:49,2.239s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/AddUser/button_Save""))",Chrome 127.0.0.0,,,06-08-2024 15:13:49,06-08-2024 15:13:52,2.737s,PASSED
+closeBrowser(),Chrome 127.0.0.0,,,06-08-2024 15:13:52,06-08-2024 15:13:53,0.880s,PASSED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyDeletingNationality,Chrome 127.0.0.0,Verify deleting nationality,,06-08-2024 15:17:40,06-08-2024 15:18:55,1m - 14.841s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 15:17:40,06-08-2024 15:17:43,3.163s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 15:17:43,06-08-2024 15:18:01,18.493s,PASSED
+maximizeWindow(),Chrome 127.0.0.0,,,06-08-2024 15:18:01,06-08-2024 15:18:02,0.344s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 15:18:02,06-08-2024 15:18:04,1.905s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 15:18:04,06-08-2024 15:18:06,1.791s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",Chrome 127.0.0.0,,,06-08-2024 15:18:06,06-08-2024 15:18:08,2.349s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",Chrome 127.0.0.0,,,06-08-2024 15:18:08,06-08-2024 15:18:11,2.645s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalitiesLink""))",Chrome 127.0.0.0,,,06-08-2024 15:18:11,06-08-2024 15:18:13,2.239s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalityItem""))",Chrome 127.0.0.0,,,06-08-2024 15:18:13,06-08-2024 15:18:14,1.484s,PASSED
+"click(findTestObject(""Object Repository/Nationality/button_Yes, Delete""))",Chrome 127.0.0.0,,,06-08-2024 15:18:14,06-08-2024 15:18:15,0.914s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Nationality/SuccessMessageOnDeletingNationality""))",Chrome 127.0.0.0,,,06-08-2024 15:18:15,06-08-2024 15:18:55,39.468s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyEditingNationality,Chrome 127.0.0.0,Verify editing the name of added nationality,Admin,06-08-2024 15:20:31,06-08-2024 15:21:00,29.170s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 15:20:31,06-08-2024 15:20:34,2.898s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 15:20:34,06-08-2024 15:20:46,11.865s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 15:20:46,06-08-2024 15:20:48,2.576s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 15:20:48,06-08-2024 15:20:50,1.383s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",Chrome 127.0.0.0,,,06-08-2024 15:20:50,06-08-2024 15:20:52,2.504s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",Chrome 127.0.0.0,,,06-08-2024 15:20:52,06-08-2024 15:20:57,5.063s,PASSED
+"click(findTestObject(""Object Repository/Nationality/NationalitiesLink""))",Chrome 127.0.0.0,,,06-08-2024 15:20:57,06-08-2024 15:21:00,2.379s,PASSED
+"setText(findTestObject(""Object Repository/Nationality/input_Password_oxd-input oxd-input--active""), ""aaaaa edited edited"")",Chrome 127.0.0.0,,,06-08-2024 15:21:00,06-08-2024 15:21:00,0.456s,FAILED
+,,,,,,,
+Test Cases/AdminPanelTests/VerifyEmployeeSearch,Chrome 127.0.0.0,Verify searching for an employee,Admin,06-08-2024 15:21:00,06-08-2024 15:21:41,41.048s,PASSED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 15:21:00,06-08-2024 15:21:03,3.076s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 15:21:03,06-08-2024 15:21:17,13.843s,PASSED
+"setText(findTestObject(""LoginPage/UserNameField""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 15:21:17,06-08-2024 15:21:21,3.402s,PASSED
+"setEncryptedText(findTestObject(""LoginPage/PasswordField""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 127.0.0.0,,,06-08-2024 15:21:21,06-08-2024 15:21:22,1.309s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",Chrome 127.0.0.0,,,06-08-2024 15:21:22,06-08-2024 15:21:29,7.231s,PASSED
+"click(findTestObject(""HomePage/Page_OrangeHRM/AdminLink""))",Chrome 127.0.0.0,,,06-08-2024 15:21:29,06-08-2024 15:21:35,5.748s,PASSED
+"setText(findTestObject(""Object Repository/AdminPage/UserNameFieldForSearch""), ""admin"")",Chrome 127.0.0.0,,,06-08-2024 15:21:35,06-08-2024 15:21:37,2.370s,PASSED
+"click(findTestObject(""Object Repository/AdminPage/SearchButton""))",Chrome 127.0.0.0,,,06-08-2024 15:21:37,06-08-2024 15:21:38,0.833s,PASSED
+"verifyElementText(findTestObject(""AdminPage/RecordFoundText""), ""(1) Record Found"")",Chrome 127.0.0.0,,,06-08-2024 15:21:38,06-08-2024 15:21:40,1.403s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AdminPage/div_Admin""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 15:21:40,06-08-2024 15:21:41,1.041s,PASSED
+"verifyElementText(findTestObject(""Object Repository/AdminPage/UserNameInSearchResult""), ""manda user"")",Chrome 127.0.0.0,,,06-08-2024 15:21:41,06-08-2024 15:21:41,0.616s,PASSED

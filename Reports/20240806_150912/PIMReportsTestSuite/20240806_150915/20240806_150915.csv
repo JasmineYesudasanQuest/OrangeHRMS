@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PIMReportsTestSuite,Chrome 127.0.0.0,,,06-08-2024 15:09:48,06-08-2024 15:12:40,2m - 51.952s,FAILED
+,,,,,,,
+Test Cases/PIMModule/PIMReports/VerifyAddingANewReport,Chrome 127.0.0.0,,PIM,06-08-2024 15:11:02,06-08-2024 15:11:17,15.219s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 15:11:02,06-08-2024 15:11:06,3.932s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 15:11:06,06-08-2024 15:11:17,10.741s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/input_Password_oxd-input oxd-input--active""), ""Admin"")",Chrome 127.0.0.0,,,06-08-2024 15:11:17,06-08-2024 15:11:17,0.374s,FAILED
+,,,,,,,
+Test Cases/PIMModule/PIMReports/VerifyDeletingReports,Chrome 127.0.0.0,,PIM,06-08-2024 15:12:17,06-08-2024 15:12:40,23.084s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,06-08-2024 15:12:17,06-08-2024 15:12:20,3.623s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,06-08-2024 15:12:20,06-08-2024 15:12:39,19.015s,PASSED
+"doubleClick(findTestObject(""Object Repository/PIM Module/input_Password_oxd-input oxd-input--active""))",Chrome 127.0.0.0,,,06-08-2024 15:12:39,06-08-2024 15:12:40,0.387s,FAILED
