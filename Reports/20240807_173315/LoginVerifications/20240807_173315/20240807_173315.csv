@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginVerifications,Chrome 127.0.0.0,,,07-08-2024 17:33:24,07-08-2024 17:34:09,45.207s,FAILED
+,,,,,,,
+Test Cases/LoginTests/LoginAsValidUser,Chrome 127.0.0.0,Login as a valid user and verify the login is successful,Login,07-08-2024 17:33:48,07-08-2024 17:34:09,20.797s,FAILED
+"openBrowser("""")",Chrome 127.0.0.0,,,07-08-2024 17:33:48,07-08-2024 17:33:50,1.688s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 127.0.0.0,,,07-08-2024 17:33:50,07-08-2024 17:34:08,18.806s,PASSED
+waitForPageLoad(0),Chrome 127.0.0.0,,,07-08-2024 17:34:08,07-08-2024 17:34:08,0.034s,PASSED
+"setText(findTestObject(""Object Repository/PasswordField""), ""Admin"")",Chrome 127.0.0.0,,,07-08-2024 17:34:08,07-08-2024 17:34:09,0.208s,FAILED

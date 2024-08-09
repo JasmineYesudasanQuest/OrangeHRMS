@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BuzzModule,Firefox 127.0,,,08-08-2024 13:28:43,08-08-2024 13:30:56,2m - 12.601s,FAILED
+,,,,,,,
+Test Cases/BuzzModule/NewPosts/VerifyAddingANewPost,Firefox 127.0,,Buzz,08-08-2024 13:28:43,08-08-2024 13:29:51,1m - 7.536s,FAILED
+"openBrowser("""")",Firefox 127.0,,,08-08-2024 13:28:44,08-08-2024 13:28:59,15.364s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 127.0,,,08-08-2024 13:28:59,08-08-2024 13:29:05,5.673s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Firefox 127.0,,,08-08-2024 13:29:05,08-08-2024 13:29:07,2.145s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""RAIVpflpDOg="")",Firefox 127.0,,,08-08-2024 13:29:07,08-08-2024 13:29:08,0.496s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Firefox 127.0,,,08-08-2024 13:29:08,08-08-2024 13:29:10,2.070s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Firefox 127.0,,,08-08-2024 13:29:10,08-08-2024 13:29:11,1.318s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 127.0,,,08-08-2024 13:29:11,08-08-2024 13:29:12,0.618s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Firefox 127.0,,,08-08-2024 13:29:12,08-08-2024 13:29:14,2.209s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/a_Buzz""))",Firefox 127.0,,,08-08-2024 13:29:14,08-08-2024 13:29:16,2.684s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input""), ""gyug"")",Firefox 127.0,,,08-08-2024 13:29:16,08-08-2024 13:29:18,1.881s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Post""))",Firefox 127.0,,,08-08-2024 13:29:18,08-08-2024 13:29:19,0.757s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/div_SuccessSuccessfully Saved""))",Firefox 127.0,,,08-08-2024 13:29:19,08-08-2024 13:29:51,31.775s,FAILED
+,,,,,,,
+Test Cases/BuzzModule/NewPosts/VerifyDeletingANewlyAddedPost,Firefox 127.0,,Buzz,08-08-2024 13:29:51,08-08-2024 13:30:21,30.299s,PASSED
+"openBrowser("""")",Firefox 127.0,,,08-08-2024 13:29:51,08-08-2024 13:30:03,12.088s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 127.0,,,08-08-2024 13:30:03,08-08-2024 13:30:08,5.367s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Firefox 127.0,,,08-08-2024 13:30:08,08-08-2024 13:30:10,1.607s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 127.0,,,08-08-2024 13:30:10,08-08-2024 13:30:11,0.539s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Firefox 127.0,,,08-08-2024 13:30:11,08-08-2024 13:30:13,2.235s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/span_Buzz""))",Firefox 127.0,,,08-08-2024 13:30:13,08-08-2024 13:30:16,3.280s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots""))",Firefox 127.0,,,08-08-2024 13:30:16,08-08-2024 13:30:18,2.113s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/p_Delete Post""))",Firefox 127.0,,,08-08-2024 13:30:18,08-08-2024 13:30:19,0.850s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Yes, Delete""))",Firefox 127.0,,,08-08-2024 13:30:19,08-08-2024 13:30:20,0.826s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/div_SuccessSuccessfully Deleted""))",Firefox 127.0,,,08-08-2024 13:30:20,08-08-2024 13:30:21,1.267s,PASSED
+,,,,,,,
+Test Cases/BuzzModule/NewPosts/VerifyEditingNewlyAddedPost,Firefox 127.0,,Buzz,08-08-2024 13:30:21,08-08-2024 13:30:56,34.336s,PASSED
+"openBrowser("""")",Firefox 127.0,,,08-08-2024 13:30:21,08-08-2024 13:30:35,13.671s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 127.0,,,08-08-2024 13:30:35,08-08-2024 13:30:40,5.262s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/input_Username_username""), ""Admin"")",Firefox 127.0,,,08-08-2024 13:30:40,08-08-2024 13:30:42,1.803s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BuzzModule/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 127.0,,,08-08-2024 13:30:42,08-08-2024 13:30:43,0.480s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Login""))",Firefox 127.0,,,08-08-2024 13:30:43,08-08-2024 13:30:45,2.183s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/span_Buzz""))",Firefox 127.0,,,08-08-2024 13:30:45,08-08-2024 13:30:48,3.066s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots""))",Firefox 127.0,,,08-08-2024 13:30:48,08-08-2024 13:30:49,1.734s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/html_OrangeHRM                  katalonfont_8f13ef""))",Firefox 127.0,,,08-08-2024 13:30:49,08-08-2024 13:30:50,0.825s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/i_Most Commented Posts_oxd-icon bi-three-dots""))",Firefox 127.0,,,08-08-2024 13:30:50,08-08-2024 13:30:51,0.820s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/p_Edit Post""))",Firefox 127.0,,,08-08-2024 13:30:51,08-08-2024 13:30:52,0.847s,PASSED
+"setText(findTestObject(""Object Repository/BuzzModule/textarea_Upgrade_oxd-buzz-post-input""), ""gyug ,smdksamd"")",Firefox 127.0,,,08-08-2024 13:30:52,08-08-2024 13:30:53,0.788s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/i__oxd-icon bi-images orangehrm-photo-upload-icon""))",Firefox 127.0,,,08-08-2024 13:30:53,08-08-2024 13:30:53,0.667s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/button_Post""))",Firefox 127.0,,,08-08-2024 13:30:53,08-08-2024 13:30:54,0.600s,PASSED
+"click(findTestObject(""Object Repository/BuzzModule/div_SuccessSuccessfully Updated""))",Firefox 127.0,,,08-08-2024 13:30:54,08-08-2024 13:30:56,1.480s,PASSED

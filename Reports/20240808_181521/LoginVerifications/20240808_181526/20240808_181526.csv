@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginVerifications,TestCloud - Windows - Edge Chromium 127,,,09-08-2024 10:06:23,09-08-2024 10:11:44,5m - 21.166s,FAILED
+,,,,,,,
+Test Cases/LoginTests/LoginAsValidUser,TestCloud - Windows - Edge Chromium 127,Login as a valid user and verify the login is successful,Login,09-08-2024 10:11:44,09-08-2024 10:11:44,0.079s,FAILED
+"openBrowser("""")",TestCloud - Windows - Edge Chromium 127,,,09-08-2024 10:11:44,09-08-2024 10:11:44,0.041s,FAILED
