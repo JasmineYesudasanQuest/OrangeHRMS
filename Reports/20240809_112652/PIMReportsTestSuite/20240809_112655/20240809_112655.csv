@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PIMReportsTestSuite,TestCloud - macOS - Edge Chromium 127,,,09-08-2024 11:27:40,09-08-2024 11:34:05,6m - 24.275s,FAILED
+,,,,,,,
+Test Cases/PIMModule/PIMReports/VerifyAddingANewReport,TestCloud - macOS - Edge Chromium 127,,PIM,09-08-2024 11:29:53,09-08-2024 11:30:36,42.706s,FAILED
+"openBrowser("""")",TestCloud - macOS - Edge Chromium 127,,,09-08-2024 11:29:53,09-08-2024 11:30:32,39.061s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - macOS - Edge Chromium 127,,,09-08-2024 11:30:32,09-08-2024 11:30:34,2.296s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/input_Password_oxd-input oxd-input--active""), ""Admin"")",TestCloud - macOS - Edge Chromium 127,,,09-08-2024 11:30:34,09-08-2024 11:30:36,1.313s,FAILED
+,,,,,,,
+Test Cases/PIMModule/PIMReports/VerifyDeletingReports,TestCloud - macOS - Edge Chromium 127,,PIM,09-08-2024 11:33:24,09-08-2024 11:34:05,40.231s,FAILED
+"openBrowser("""")",TestCloud - macOS - Edge Chromium 127,,,09-08-2024 11:33:24,09-08-2024 11:34:02,37.722s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - macOS - Edge Chromium 127,,,09-08-2024 11:34:02,09-08-2024 11:34:04,1.907s,PASSED
+"doubleClick(findTestObject(""Object Repository/PIM Module/input_Password_oxd-input oxd-input--active""))",TestCloud - macOS - Edge Chromium 127,,,09-08-2024 11:34:04,09-08-2024 11:34:05,0.580s,FAILED

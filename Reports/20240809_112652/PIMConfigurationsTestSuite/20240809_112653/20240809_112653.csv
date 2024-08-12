@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PIMConfigurationsTestSuite,,,,09-08-2024 11:27:40,09-08-2024 11:28:28,47.738s,FAILED
+,,,,,,,
+Test Cases/PIMModule/VerifyAddingANewEmployee,,Verify adding a new employee from pim module,PIM,09-08-2024 11:27:55,09-08-2024 11:27:58,2.064s,FAILED
+"openBrowser("""")",,,,09-08-2024 11:27:56,09-08-2024 11:27:58,2.014s,FAILED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields,,verify custom fields,PIM,09-08-2024 11:28:08,09-08-2024 11:28:11,2.643s,FAILED
+"openBrowser("""")",,,,09-08-2024 11:28:08,09-08-2024 11:28:11,2.602s,FAILED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields,,Verify Configuring optional fields in pim modue,PIM,09-08-2024 11:28:17,09-08-2024 11:28:19,2.155s,FAILED
+"openBrowser("""")",,,,09-08-2024 11:28:17,09-08-2024 11:28:19,2.117s,FAILED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields,,Verify optional fields,PIM,09-08-2024 11:28:26,09-08-2024 11:28:28,1.973s,FAILED
+"openBrowser("""")",,,,09-08-2024 11:28:26,09-08-2024 11:28:28,1.942s,FAILED

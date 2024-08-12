@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PIMConfigurationsTestSuite,TestCloud - macOS - Safari 17,,,09-08-2024 11:27:39,09-08-2024 11:39:24,11m - 44.689s,FAILED
+,,,,,,,
+Test Cases/PIMModule/VerifyAddingANewEmployee,TestCloud - macOS - Safari 17,Verify adding a new employee from pim module,PIM,09-08-2024 11:30:52,09-08-2024 11:32:02,1m - 9.554s,FAILED
+"openBrowser("""")",TestCloud - macOS - Safari 17,,,09-08-2024 11:30:52,09-08-2024 11:31:38,45.636s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:38,09-08-2024 11:31:40,2.056s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Username_username""), ""Admin"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:40,09-08-2024 11:31:42,2.523s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:42,09-08-2024 11:31:44,1.266s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/button_Login""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:44,09-08-2024 11:31:45,0.882s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/a_PIM""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:45,09-08-2024 11:31:47,2.024s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/AddEmployeeLink""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:47,09-08-2024 11:31:48,1.508s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Full Name_firstName""), ""Demo First Name"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:48,09-08-2024 11:31:51,3.314s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Full Name_middleName""), ""Demo Middle Name"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:51,09-08-2024 11:31:54,2.153s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Full Name_lastName""), ""Demo Last Name"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:54,09-08-2024 11:31:56,2.184s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/i_Add Employee_oxd-icon bi-plus""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:56,09-08-2024 11:31:57,1.118s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/AddEmployee/button_Save""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:57,09-08-2024 11:31:58,0.901s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/AddEmployee/input_Employee Id_oxd-input oxd-input--focu_4d9016""), """")",TestCloud - macOS - Safari 17,,,09-08-2024 11:31:58,09-08-2024 11:32:02,3.935s,FAILED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyAddingCustomFields,TestCloud - macOS - Safari 17,verify custom fields,PIM,09-08-2024 11:34:17,09-08-2024 11:35:00,42.832s,FAILED
+"openBrowser("""")",TestCloud - macOS - Safari 17,,,09-08-2024 11:34:18,09-08-2024 11:34:58,40.512s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:34:58,09-08-2024 11:35:00,1.842s,PASSED
+"setText(findTestObject(""Object Repository/input_Password_oxd-input oxd-input--active""), ""Admin"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:00,09-08-2024 11:35:00,0.448s,FAILED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyConfiguringOptionalFields,TestCloud - macOS - Safari 17,Verify Configuring optional fields in pim modue,PIM,09-08-2024 11:35:00,09-08-2024 11:35:58,57.349s,PASSED
+"openBrowser("""")",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:00,09-08-2024 11:35:42,41.513s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:42,09-08-2024 11:35:44,1.862s,PASSED
+maximizeWindow(),TestCloud - macOS - Safari 17,,,09-08-2024 11:35:44,09-08-2024 11:35:44,0.525s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/Configurations/input_Username_username""), ""Admin"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:44,09-08-2024 11:35:46,2.060s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PIM Module/Configurations/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:46,09-08-2024 11:35:48,1.201s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/button_Login""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:48,09-08-2024 11:35:48,0.891s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/a_PIM""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:48,09-08-2024 11:35:50,1.557s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/li_Configuration""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:50,09-08-2024 11:35:52,1.470s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/li_Optional Fields""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:52,09-08-2024 11:35:52,0.878s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:52,09-08-2024 11:35:53,0.941s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:53,09-08-2024 11:35:54,0.823s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:54,09-08-2024 11:35:55,0.916s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/span_Show Deprecated Fields_oxd-switch-inpu_894c62""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:55,09-08-2024 11:35:56,0.892s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/button_Save""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:56,09-08-2024 11:35:57,0.853s,PASSED
+"click(findTestObject(""Object Repository/PIM Module/Configurations/p_Success""))",TestCloud - macOS - Safari 17,,,09-08-2024 11:35:57,09-08-2024 11:35:58,0.869s,PASSED
+,,,,,,,
+Test Cases/PIMModule/ConfigurationsModule/VerifyOptionalFields,TestCloud - macOS - Safari 17,Verify optional fields,PIM,09-08-2024 11:38:22,09-08-2024 11:39:24,1m - 2.235s,FAILED
+"openBrowser("""")",TestCloud - macOS - Safari 17,,,09-08-2024 11:38:22,09-08-2024 11:39:22,59.940s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:39:22,09-08-2024 11:39:24,1.812s,PASSED
+"setText(findTestObject(""Object Repository/PIM Module/input_Password_oxd-input oxd-input--active""), ""Admin"")",TestCloud - macOS - Safari 17,,,09-08-2024 11:39:24,09-08-2024 11:39:24,0.454s,FAILED
